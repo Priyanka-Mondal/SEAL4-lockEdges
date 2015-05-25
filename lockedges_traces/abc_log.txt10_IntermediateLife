@@ -1,0 +1,2099 @@
+1   START
+2   THREADINIT tid:1
+3   ENABLE-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+4   ATTACH-Q tid:1 queue:1090936520
+5   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+6   POST src:2 msg:1 dest:-1 delay:0
+7   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+8   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+9   POST src:2 msg:2 dest:-1 delay:0
+10   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+11   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+12   POST src:2 msg:3 dest:-1 delay:0
+13   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+14   LOOP tid:1 queue:1090936520
+15   CALL tid:1 msg:1
+16   RET tid:1 msg:1
+17   CALL tid:1 msg:2
+18   TRIGGER-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+19   ENABLE-LIFECYCLE tid:1 component: id:0 state:BINDAPP-DONE
+20   ENABLE-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+21   RET tid:1 msg:2
+22   CALL tid:1 msg:3 beginAtomic
+23   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+230 rwId:1 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:112
+231 rwId:2 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:88
+239 rwId:3 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:40
+247 rwId:4 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:208
+251 rwId:5 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+291 rwId:6 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+297 rwId:7 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+313 rwId:8 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+422 rwId:9 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+475 rwId:10 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+476 rwId:11 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+478 rwId:12 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+488 rwId:13 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+490 rwId:14 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+492 rwId:15 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+514 rwId:16 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+515 rwId:17 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:12
+520 rwId:18 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+551 rwId:19 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+554 rwId:20 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+555 rwId:21 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+557 rwId:22 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+564 rwId:23 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+590 rwId:24 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+591 rwId:25 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+615 rwId:26 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+629 rwId:27 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+630 rwId:28 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+644 rwId:29 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+651 rwId:30 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+672 rwId:31 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+707 rwId:32 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+813 rwId:33 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+926 rwId:34 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+932 rwId:35 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+952 rwId:36 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+953 rwId:37 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1051 rwId:38 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+1063 rwId:39 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1064 rwId:40 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1081 rwId:41 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1082 rwId:42 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1156 rwId:43 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+1238 rwId:44 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+1244 rwId:45 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+1264 rwId:46 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1265 rwId:47 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1597 rwId:48 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+1609 rwId:49 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1610 rwId:50 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1643 rwId:51 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1644 rwId:52 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1691 rwId:53 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1692 rwId:54 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1863 rwId:55 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1864 rwId:56 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1898 rwId:57 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1899 rwId:58 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+1947 rwId:59 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2029 rwId:60 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2035 rwId:61 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2055 rwId:62 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2056 rwId:63 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2301 rwId:64 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2313 rwId:65 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2314 rwId:66 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2372 rwId:67 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2373 rwId:68 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+2383 rwId:69 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2390 rwId:70 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2405 rwId:71 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:56
+2490 rwId:72 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:56
+2813 rwId:73 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2816 rwId:74 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+2817 rwId:75 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+2827 rwId:76 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+2945 rwId:77 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+3027 rwId:78 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+3033 rwId:79 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+3053 rwId:80 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+3054 rwId:81 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+3944 rwId:82 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+3956 rwId:83 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+3957 rwId:84 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+3990 rwId:85 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+3991 rwId:86 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4029 rwId:87 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4030 rwId:88 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4064 rwId:89 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4065 rwId:90 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4116 rwId:91 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+4228 rwId:92 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+4234 rwId:93 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+4254 rwId:94 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4255 rwId:95 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4331 rwId:96 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4332 rwId:97 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4504 rwId:98 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4505 rwId:99 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4545 rwId:100 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4546 rwId:101 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4664 rwId:102 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+4670 rwId:103 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+4690 rwId:104 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4691 rwId:105 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4749 rwId:106 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4750 rwId:107 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4812 rwId:108 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4813 rwId:109 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4865 rwId:110 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4866 rwId:111 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+4965 rwId:112 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+5086 rwId:113 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+5092 rwId:114 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+5112 rwId:115 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5113 rwId:116 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5853 rwId:117 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+5865 rwId:118 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5866 rwId:119 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5899 rwId:120 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5900 rwId:121 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5938 rwId:122 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5939 rwId:123 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5973 rwId:124 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+5974 rwId:125 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6058 rwId:126 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+6064 rwId:127 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+6084 rwId:128 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6085 rwId:129 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6161 rwId:130 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6162 rwId:131 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6312 rwId:132 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6313 rwId:133 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6353 rwId:134 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6354 rwId:135 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6472 rwId:136 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+6478 rwId:137 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+6498 rwId:138 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6499 rwId:139 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6557 rwId:140 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6558 rwId:141 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6620 rwId:142 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6621 rwId:143 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6673 rwId:144 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+6674 rwId:145 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+7000   ACCESS tid:1 accessId:1
+7001   ENABLE-EVENT tid:1 view:1091079488 event:0
+7456 rwId:146 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+7459 rwId:147 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+7460 rwId:148 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+7468 rwId:149 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+7608 rwId:150 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+7614 rwId:151 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+7634 rwId:152 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+7635 rwId:153 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8387 rwId:154 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+8399 rwId:155 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8400 rwId:156 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8417 rwId:157 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8418 rwId:158 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8471 rwId:159 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8472 rwId:160 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8506 rwId:161 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8507 rwId:162 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8591 rwId:163 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+8597 rwId:164 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+8617 rwId:165 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8618 rwId:166 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8694 rwId:167 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8695 rwId:168 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8845 rwId:169 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8846 rwId:170 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8880 rwId:171 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+8881 rwId:172 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9002 rwId:173 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9008 rwId:174 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9028 rwId:175 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9029 rwId:176 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9113 rwId:177 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9125 rwId:178 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9126 rwId:179 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9143 rwId:180 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9144 rwId:181 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9200 rwId:182 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9201 rwId:183 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9235 rwId:184 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9236 rwId:185 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9286 rwId:186 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9394 rwId:187 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9400 rwId:188 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+9420 rwId:189 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9421 rwId:190 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9514 rwId:191 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9515 rwId:192 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9993 rwId:193 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+9994 rwId:194 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10221 rwId:195 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+10255 rwId:196 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10256 rwId:197 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10290 rwId:198 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10291 rwId:199 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10411 rwId:200 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+10417 rwId:201 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+10437 rwId:202 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10438 rwId:203 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10561 rwId:204 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+10562 rwId:205 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11010 rwId:206 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11011 rwId:207 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11084 rwId:208 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+11118 rwId:209 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11119 rwId:210 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11165 rwId:211 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11166 rwId:212 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11333   ACCESS tid:1 accessId:2
+11334   ENABLE-EVENT tid:1 view:1091086888 event:0
+11433 rwId:213 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11434 rwId:214 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11623 rwId:215 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+11624 rwId:216 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12178 rwId:217 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+12226   ACCESS tid:1 accessId:3
+12227   ENABLE-EVENT tid:1 view:1091071784 event:0
+12461 rwId:218 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12462 rwId:219 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12496 rwId:220 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12497 rwId:221 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12614 rwId:222 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+12696 rwId:223 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+12702 rwId:224 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+12722 rwId:225 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12723 rwId:226 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12969 rwId:227 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+12981 rwId:228 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+12982 rwId:229 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13004 rwId:230 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13005 rwId:231 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13253 rwId:232 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13254 rwId:233 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13288 rwId:234 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13289 rwId:235 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13421 rwId:236 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13534 rwId:237 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13540 rwId:238 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13560 rwId:239 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13561 rwId:240 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13649 rwId:241 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13661 rwId:242 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13662 rwId:243 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13695 rwId:244 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13696 rwId:245 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13736 rwId:246 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13737 rwId:247 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13777 rwId:248 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13778 rwId:249 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13898 rwId:250 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13904 rwId:251 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+13924 rwId:252 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+13925 rwId:253 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14187 rwId:254 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+14199 rwId:255 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14200 rwId:256 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14233 rwId:257 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14234 rwId:258 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14279 rwId:259 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14280 rwId:260 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14503 rwId:261 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14504 rwId:262 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14538 rwId:263 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14539 rwId:264 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+14730 rwId:265 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+15121 rwId:266 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+15122 rwId:267 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+15561 rwId:268 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+15691 rwId:269 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+15697 rwId:270 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+15717 rwId:271 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15718 rwId:272 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15802 rwId:273 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+15814 rwId:274 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15815 rwId:275 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15832 rwId:276 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15833 rwId:277 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15889 rwId:278 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15890 rwId:279 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15924 rwId:280 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+15925 rwId:281 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16006 rwId:282 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+16012 rwId:283 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+16032 rwId:284 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16033 rwId:285 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16122 rwId:286 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16123 rwId:287 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16499 rwId:288 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16500 rwId:289 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16725 rwId:290 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+16759 rwId:291 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16760 rwId:292 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16794 rwId:293 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16795 rwId:294 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+16882 rwId:295 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+16993 rwId:296 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+16999 rwId:297 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17021 rwId:298 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17194 rwId:299 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17209 rwId:300 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17338 rwId:301 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17355 rwId:302 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+17356 rwId:303 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+17385 rwId:304 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17503 rwId:305 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17700 rwId:306 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17783 rwId:307 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17795 rwId:308 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+17796 rwId:309 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+17838   ACCESS tid:1 accessId:4
+17839   ENABLE-EVENT tid:1 view:1091109120 event:0
+17953 rwId:310 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17979 rwId:311 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+17988 rwId:312 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+17989 rwId:313 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19001 rwId:314 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19002 rwId:315 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19154 rwId:316 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19155 rwId:317 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19189 rwId:318 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19190 rwId:319 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+19457 rwId:320 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+19548 rwId:321 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+19625 rwId:322 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+19626 rwId:323 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+19627 rwId:324 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+19628 rwId:325 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:228
+19631 rwId:326 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:232
+19632 rwId:327 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:220
+19633 rwId:328 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:216
+19647   ACCESS tid:1 accessId:5
+19648   POST src:1 msg:4 dest:-1 delay:0
+19654 rwId:329 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:232
+19659 rwId:330 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+19664 rwId:331 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+19670 rwId:332 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:28
+19721 rwId:333 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+19895 rwId:334 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20000 rwId:335 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20024 rwId:336 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+20087 rwId:337 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:28
+20091 rwId:338 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+20112 rwId:339 WRITE tid:1 obj:0x410922a0 class:Landroid/content/Intent; field:8
+20114 rwId:340 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+20116 rwId:341 READ tid:1 obj:0x410922a0 class:Landroid/content/Intent; field:24
+20133 rwId:342 WRITE tid:1 obj:0x410922a0 class:Landroid/content/Intent; field:24
+20134 rwId:343 READ tid:1 obj:0x410922a0 class:Landroid/content/Intent; field:24
+20165 rwId:344 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20212   ACCESS tid:1 accessId:6
+20213   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:0 intent:2 onRecLater:-1 state:ABC_SEND_BROADCAST
+20310   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+20311   POST src:3 msg:5 dest:-1 delay:0
+20312   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+20325   INSTANCE-INTENT tid:1 instance:1091041520 intentId:1
+20326   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:RESUME-ACT
+20330 rwId:345 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:40
+20338 rwId:346 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:208
+20401 rwId:347 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20411 rwId:348 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:236
+20413 rwId:349 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20680   ACCESS tid:1 accessId:7
+20681   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:1091043600 state:REQUEST_BIND_SERVICE
+20762   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+20763   POST src:2 msg:6 dest:-1 delay:0
+20764   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+20765   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+20766   POST src:3 msg:7 dest:-1 delay:0
+20767   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+20854 rwId:350 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20873 rwId:351 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+20876 rwId:352 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+20877 rwId:353 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+20885 rwId:354 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21033 rwId:355 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21039 rwId:356 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21059 rwId:357 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21060 rwId:358 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21284 rwId:359 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21296 rwId:360 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21297 rwId:361 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21314 rwId:362 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21315 rwId:363 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21424 rwId:364 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21430 rwId:365 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+21450 rwId:366 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21451 rwId:367 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21544 rwId:368 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21545 rwId:369 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21939 rwId:370 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+21940 rwId:371 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+22167 rwId:372 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+22201 rwId:373 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+22202 rwId:374 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+22236 rwId:375 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+22237 rwId:376 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+22359 rwId:377 READ tid:1 obj:0x41094be8 class:Landroid/widget/Toast; field:16
+22406 rwId:378 READ tid:1 obj:0x41094be8 class:Landroid/widget/Toast; field:8
+22408 rwId:379 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+22414 rwId:380 READ tid:1 obj:0x41094be8 class:Landroid/widget/Toast; field:12
+22415 rwId:381 READ tid:1 obj:0x41094be8 class:Landroid/widget/Toast; field:16
+22416 rwId:382 READ tid:1 obj:0x41094be8 class:Landroid/widget/Toast; field:20
+22424   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+22425   POST src:2 msg:8 dest:-1 delay:0
+22426   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+22438 rwId:383 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+22653   ACCESS tid:1 accessId:8
+22654   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:3 state:REQUEST_START_SERVICE
+22743   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+22744   POST src:3 msg:9 dest:-1 delay:0
+22745   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+22787 rwId:384 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+22804 rwId:385 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22805 rwId:386 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:8
+22806 rwId:387 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:8
+22807 rwId:388 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22808 rwId:389 WRITE tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22815 rwId:390 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22816 rwId:391 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:8
+22817 rwId:392 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22818 rwId:393 WRITE tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:12
+22819 rwId:394 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:16
+22820 rwId:395 READ tid:1 obj:0x41096ac0 class:Ljava/lang/StringBuilder; field:8
+22886 rwId:396 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+22905 rwId:397 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+22908 rwId:398 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+22909 rwId:399 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+22917 rwId:400 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23025 rwId:401 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23031 rwId:402 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23051 rwId:403 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23052 rwId:404 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23254 rwId:405 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23266 rwId:406 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23267 rwId:407 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23284 rwId:408 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23285 rwId:409 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23394 rwId:410 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23400 rwId:411 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+23420 rwId:412 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23421 rwId:413 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23514 rwId:414 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23515 rwId:415 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23909 rwId:416 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+23910 rwId:417 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24137 rwId:418 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24171 rwId:419 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24172 rwId:420 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24206 rwId:421 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24207 rwId:422 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24329 rwId:423 READ tid:1 obj:0x41096bb8 class:Landroid/widget/Toast; field:16
+24332 rwId:424 READ tid:1 obj:0x41096bb8 class:Landroid/widget/Toast; field:8
+24334 rwId:425 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24340 rwId:426 READ tid:1 obj:0x41096bb8 class:Landroid/widget/Toast; field:12
+24341 rwId:427 READ tid:1 obj:0x41096bb8 class:Landroid/widget/Toast; field:16
+24342 rwId:428 READ tid:1 obj:0x41096bb8 class:Landroid/widget/Toast; field:20
+24419 rwId:429 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24438 rwId:430 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24441 rwId:431 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+24442 rwId:432 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+24450 rwId:433 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24558 rwId:434 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24564 rwId:435 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24584 rwId:436 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24585 rwId:437 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24787 rwId:438 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24799 rwId:439 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24800 rwId:440 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24817 rwId:441 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24818 rwId:442 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24927 rwId:443 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24933 rwId:444 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+24953 rwId:445 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+24954 rwId:446 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25047 rwId:447 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25048 rwId:448 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25442 rwId:449 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25443 rwId:450 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25670 rwId:451 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+25704 rwId:452 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25705 rwId:453 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25739 rwId:454 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25740 rwId:455 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+25862 rwId:456 READ tid:1 obj:0x410978f0 class:Landroid/widget/Toast; field:16
+25865 rwId:457 READ tid:1 obj:0x410978f0 class:Landroid/widget/Toast; field:8
+25867 rwId:458 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+25873 rwId:459 READ tid:1 obj:0x410978f0 class:Landroid/widget/Toast; field:12
+25874 rwId:460 READ tid:1 obj:0x410978f0 class:Landroid/widget/Toast; field:16
+25875 rwId:461 READ tid:1 obj:0x410978f0 class:Landroid/widget/Toast; field:20
+25894 rwId:462 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+26085   ACCESS tid:1 accessId:9
+26086   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:8999 state:REQUEST_STOP_SERVICE
+26187   ENABLE-EVENT tid:1 view:0 event:3
+26188   ENABLE-EVENT tid:1 view:0 event:4
+26189   ENABLE-EVENT tid:1 view:0 event:5
+26190   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+26191   POST src:1 msg:10 dest:-1 delay:0
+26192   ADD_IDLE_HANDLER idler:1091152824 queue:1090936520
+26193   RET tid:1 msg:3 endAtomic
+26194   CALL tid:1 msg:4 beginAtomic
+26195   RET tid:1 msg:4 endAtomic
+26196   CALL tid:1 msg:5
+26203   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:1091153736 intent:2 onRecLater:-1 state:ABC_ONRECEIVE
+26219 rwId:463 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyScheduleReceiver; field:2137
+26221   ACCESS tid:1 accessId:10
+26222   LOCK tid:1 lock-obj:0x410628b0
+26223 rwId:464 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+26233 rwId:465 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+26234 rwId:466 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+26238   ACCESS tid:1 accessId:11
+26239   UNLOCK tid:1 lock-obj:0x410628b0
+26242 rwId:467 READ tid:1 obj:0x41092470 class:Landroid/content/Intent; field:24
+26243 rwId:468 READ tid:1 obj:0x41092470 class:Landroid/content/Intent; field:24
+26341   ACCESS tid:1 accessId:12
+26342   LOCK tid:1 lock-obj:0x4109b1a0
+26343 rwId:469 READ tid:1 obj:0x4109b1a0 class:Landroid/os/Bundle; field:8
+26344   ACCESS tid:1 accessId:13
+26345   UNLOCK tid:1 lock-obj:0x4109b1a0
+26347 rwId:470 READ tid:1 obj:0x4109b1a0 class:Landroid/os/Bundle; field:16
+26354 rwId:471 READ tid:1 obj:0x4109b0b8 class:Landroid/app/ReceiverRestrictedContext; field:8
+26777 rwId:472 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:92
+26779 rwId:473 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:48
+26780 rwId:474 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26782 rwId:475 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26783 rwId:476 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26784 rwId:477 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:52
+26786 rwId:478 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:48
+26787 rwId:479 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:52
+26790 rwId:480 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:8
+26792 rwId:481 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26809 rwId:482 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26810 rwId:483 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26811 rwId:484 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26812 rwId:485 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26813 rwId:486 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26814 rwId:487 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26815 rwId:488 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:92
+26816 rwId:489 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26819 rwId:490 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:72
+26821 rwId:491 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:60
+26823 rwId:492 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26825 rwId:493 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26826 rwId:494 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26827 rwId:495 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:60
+26828 rwId:496 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26830 rwId:497 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:60
+26836 rwId:498 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26839 rwId:499 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26841 rwId:500 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:8
+26843 rwId:501 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26844 rwId:502 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26855 rwId:503 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26856 rwId:504 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26857 rwId:505 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26858 rwId:506 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26859 rwId:507 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26860 rwId:508 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26861 rwId:509 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26862 rwId:510 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26863 rwId:511 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26864 rwId:512 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26865 rwId:513 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26866 rwId:514 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26867 rwId:515 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26868 rwId:516 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26869 rwId:517 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26870 rwId:518 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26872 rwId:519 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:20
+26876 rwId:520 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26878 rwId:521 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:20
+26882 rwId:522 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26884 rwId:523 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:44
+26886 rwId:524 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26889 rwId:525 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26891 rwId:526 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26892 rwId:527 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26893 rwId:528 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26894 rwId:529 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26895 rwId:530 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26896 rwId:531 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26897 rwId:532 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26898 rwId:533 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26899 rwId:534 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26900 rwId:535 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26901 rwId:536 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26902 rwId:537 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26903 rwId:538 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26904 rwId:539 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26905 rwId:540 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26906 rwId:541 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26907 rwId:542 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:16
+26908 rwId:543 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:92
+26911 rwId:544 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26912 rwId:545 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26913 rwId:546 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26914 rwId:547 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26915 rwId:548 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26916 rwId:549 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26917 rwId:550 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26918 rwId:551 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26919 rwId:552 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26920 rwId:553 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26921 rwId:554 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26922 rwId:555 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26923 rwId:556 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26924 rwId:557 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26925 rwId:558 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26926 rwId:559 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26927 rwId:560 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26928 rwId:561 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:56
+26929 rwId:562 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26930 rwId:563 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26931 rwId:564 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26932 rwId:565 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26933 rwId:566 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:64
+26934 rwId:567 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26935 rwId:568 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26936 rwId:569 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:12
+26937 rwId:570 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:80
+26938 rwId:571 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:92
+26940 rwId:572 WRITE tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:52
+26944 rwId:573 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:48
+26945 rwId:574 READ tid:1 obj:0x4109baf8 class:Ljava/util/GregorianCalendar; field:24
+26948 rwId:575 READ tid:1 obj:0x4109b4b8 class:Landroid/app/AlarmManager; field:8
+26969   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+26970   POST src:2 msg:11 dest:-1 delay:0
+26971   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+26972   ACCESS tid:1 accessId:14
+26973   RET tid:1 msg:5
+26974   CALL tid:1 msg:6 beginAtomic
+27028   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+27029   POST src:3 msg:12 dest:-1 delay:0
+27030   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+27031   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+27032   POST src:2 msg:13 dest:-1 delay:0
+27033   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+27083   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:0 state:CREATE-SERVICE
+27084   RET tid:1 msg:6 endAtomic
+27085   CALL tid:1 msg:7 beginAtomic
+27086   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:0 state:BIND-SERVICE
+27110   LOCK tid:1 lock-obj:0x4109ccf0
+27111 rwId:576 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27112 rwId:577 WRITE tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27113 rwId:578 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27114   ACCESS tid:1 accessId:15
+27115   UNLOCK tid:1 lock-obj:0x4109ccf0
+27118 rwId:579 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2115
+27120 rwId:580 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:12
+27121 rwId:581 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27122 rwId:582 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:12
+27123 rwId:583 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27124 rwId:584 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27125 rwId:585 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27129   ACCESS tid:1 accessId:16
+27130   LOCK tid:1 lock-obj:0x4109ccf0
+27131 rwId:586 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27132 rwId:587 WRITE tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27133 rwId:588 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27134   ACCESS tid:1 accessId:17
+27135   UNLOCK tid:1 lock-obj:0x4109ccf0
+27140   LOCK tid:1 lock-obj:0x4109ccf0
+27141 rwId:589 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27142 rwId:590 WRITE tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27143 rwId:591 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27144   ACCESS tid:1 accessId:18
+27145   UNLOCK tid:1 lock-obj:0x4109ccf0
+27150   LOCK tid:1 lock-obj:0x4109ccf0
+27151 rwId:592 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27152 rwId:593 WRITE tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27153 rwId:594 READ tid:1 obj:0x4109ccf0 class:Ljava/util/Random; field:8
+27154   ACCESS tid:1 accessId:19
+27155   UNLOCK tid:1 lock-obj:0x4109ccf0
+27158 rwId:595 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2115
+27160 rwId:596 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:12
+27161 rwId:597 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27162 rwId:598 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27163 rwId:599 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27164 rwId:600 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27166 rwId:601 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2137
+27168   ACCESS tid:1 accessId:20
+27169   LOCK tid:1 lock-obj:0x410628b0
+27170 rwId:602 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+27180 rwId:603 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+27181 rwId:604 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+27185   ACCESS tid:1 accessId:21
+27186   UNLOCK tid:1 lock-obj:0x410628b0
+27188 rwId:605 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2120
+27189 rwId:606 READ tid:1 obj:0x4109c7c8 class:Lde/vogella/android/ownservice/local/LocalWordService; field:36
+27191   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+27192   POST src:3 msg:14 dest:-1 delay:0
+27193   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+27194   ACCESS tid:1 accessId:22
+27195   RET tid:1 msg:7 endAtomic
+27196   CALL tid:1 msg:8
+27197   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091130192
+27198   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+27199   POST src:1 msg:15 dest:-1 delay:0
+27200   RET tid:1 msg:8
+27201   CALL tid:1 msg:9 beginAtomic
+27202   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:3 state:SERVICE-ARGS
+27210 rwId:607 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2137
+27212   ACCESS tid:1 accessId:23
+27213   LOCK tid:1 lock-obj:0x410628b0
+27214 rwId:608 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+27224 rwId:609 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+27225 rwId:610 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+27229   ACCESS tid:1 accessId:24
+27230   UNLOCK tid:1 lock-obj:0x410628b0
+27233   RET tid:1 msg:9 endAtomic
+27234   CALL tid:1 msg:10 beginAtomic
+27235   POST src:1 msg:16 dest:-1 delay:1199
+27236   POST src:1 msg:17 dest:-1 delay:1197
+27237   POST src:1 msg:18 dest:-1 delay:0
+27238   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+27239   POST src:2 msg:19 dest:-1 delay:0
+27240   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+27241   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+27242   POST src:3 msg:20 dest:-1 delay:0
+27243   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+27244   POST src:1 msg:21 dest:-1 delay:0
+27245   RET tid:1 msg:10 endAtomic
+27246   CALL tid:1 msg:11
+27253   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:1091171104 intent:2 onRecLater:-1 state:ABC_ONRECEIVE
+27274 rwId:611 READ tid:1 obj:0x4109be08 class:Landroid/content/Intent; field:24
+27275 rwId:612 READ tid:1 obj:0x4109be08 class:Landroid/content/Intent; field:24
+27373   ACCESS tid:1 accessId:25
+27374   LOCK tid:1 lock-obj:0x4109f538
+27375 rwId:613 READ tid:1 obj:0x4109f538 class:Landroid/os/Bundle; field:8
+27376   ACCESS tid:1 accessId:26
+27377   UNLOCK tid:1 lock-obj:0x4109f538
+27379 rwId:614 READ tid:1 obj:0x4109f538 class:Landroid/os/Bundle; field:16
+27385 rwId:615 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2115
+27387 rwId:616 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27388 rwId:617 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:12
+27389 rwId:618 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27394 rwId:619 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+27395 rwId:620 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27396 rwId:621 WRITE tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:8
+27408 rwId:622 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27409 rwId:623 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27411 rwId:624 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27412 rwId:625 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27413 rwId:626 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27414 rwId:627 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27415 rwId:628 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27416 rwId:629 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:12
+27418 rwId:630 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27419 rwId:631 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27422 rwId:632 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27427 rwId:633 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27428 rwId:634 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27429 rwId:635 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27430 rwId:636 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27433 rwId:637 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27436 rwId:638 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2120
+27453 rwId:639 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27454 rwId:640 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27455 rwId:641 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27456 rwId:642 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27457 rwId:643 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27464 rwId:644 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27465 rwId:645 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+27466 rwId:646 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27467 rwId:647 WRITE tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:12
+27468 rwId:648 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:16
+27469 rwId:649 READ tid:1 obj:0x4109f638 class:Ljava/lang/StringBuilder; field:8
+29127 rwId:650 READ tid:1 obj:0x4109f728 class:Landroid/widget/Toast; field:16
+29130 rwId:651 READ tid:1 obj:0x4109f728 class:Landroid/widget/Toast; field:8
+29139 rwId:652 READ tid:1 obj:0x4109f728 class:Landroid/widget/Toast; field:12
+29140 rwId:653 READ tid:1 obj:0x4109f728 class:Landroid/widget/Toast; field:16
+29141 rwId:654 READ tid:1 obj:0x4109f728 class:Landroid/widget/Toast; field:20
+29159 rwId:655 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2137
+29170   ACCESS tid:1 accessId:27
+29171   LOCK tid:1 lock-obj:0x4109f538
+29172 rwId:656 READ tid:1 obj:0x4109f538 class:Landroid/os/Bundle; field:8
+29173   ACCESS tid:1 accessId:28
+29174   UNLOCK tid:1 lock-obj:0x4109f538
+29176 rwId:657 READ tid:1 obj:0x4109f538 class:Landroid/os/Bundle; field:16
+29196 rwId:658 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29197 rwId:659 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:8
+29198 rwId:660 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:8
+29199 rwId:661 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29202 rwId:662 WRITE tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29207 rwId:663 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29208 rwId:664 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:8
+29209 rwId:665 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29210 rwId:666 WRITE tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:12
+29211 rwId:667 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:16
+29212 rwId:668 READ tid:1 obj:0x410a05a0 class:Ljava/lang/StringBuilder; field:8
+29220   ACCESS tid:1 accessId:29
+29221   LOCK tid:1 lock-obj:0x410628b0
+29222 rwId:669 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+29232 rwId:670 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+29233 rwId:671 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+29237   ACCESS tid:1 accessId:30
+29238   UNLOCK tid:1 lock-obj:0x410628b0
+29240 rwId:672 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2120
+29241 rwId:673 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2137
+29243   ACCESS tid:1 accessId:31
+29244   LOCK tid:1 lock-obj:0x410628b0
+29245 rwId:674 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+29255 rwId:675 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+29256 rwId:676 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+29260   ACCESS tid:1 accessId:32
+29261   UNLOCK tid:1 lock-obj:0x410628b0
+29264 rwId:677 READ tid:1 obj:0x4109b0b8 class:Landroid/app/ReceiverRestrictedContext; field:8
+29474   ACCESS tid:1 accessId:33
+29475   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:4 state:REQUEST_START_SERVICE
+29574   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+29575   POST src:2 msg:22 dest:-1 delay:0
+29576   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+29598   RET tid:1 msg:11
+29599   CALL tid:1 msg:12
+29600   POST src:1 msg:23 dest:-1 delay:0
+29601   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+29602   RET tid:1 msg:12
+29603   CALL tid:1 msg:13
+29604   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091136864
+29605   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+29606   POST src:1 msg:24 dest:-1 delay:0
+29607   RET tid:1 msg:13
+29608   CALL tid:1 msg:14 beginAtomic
+29609   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:1091043600 state:SERVICE_CONNECT
+29611 rwId:678 READ tid:1 obj:0x41080110 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:8
+29613 rwId:679 READ tid:1 obj:0x4109cb48 class:Lde/vogella/android/ownservice/local/LocalWordService$MyBinder; field:20
+29616 rwId:680 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:240
+29618 rwId:681 READ tid:1 obj:0x41080110 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:8
+29627 rwId:682 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:2120
+29644 rwId:683 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29645 rwId:684 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:8
+29646 rwId:685 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:8
+29647 rwId:686 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29648 rwId:687 WRITE tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29655 rwId:688 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29656 rwId:689 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:8
+29657 rwId:690 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29658 rwId:691 WRITE tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:12
+29659 rwId:692 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:16
+29660 rwId:693 READ tid:1 obj:0x410a2238 class:Ljava/lang/StringBuilder; field:8
+29726 rwId:694 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+29745 rwId:695 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+29748 rwId:696 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+29749 rwId:697 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+29757 rwId:698 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+29865 rwId:699 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+29871 rwId:700 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+29891 rwId:701 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+29892 rwId:702 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30094 rwId:703 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+30106 rwId:704 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30107 rwId:705 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30124 rwId:706 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30125 rwId:707 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30234 rwId:708 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+30240 rwId:709 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+30260 rwId:710 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30261 rwId:711 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30354 rwId:712 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30355 rwId:713 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30749 rwId:714 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30750 rwId:715 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+30977 rwId:716 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31011 rwId:717 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31012 rwId:718 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31046 rwId:719 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31047 rwId:720 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31079   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31080   POST src:3 msg:25 dest:-1 delay:0
+31081   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31082   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31083   POST src:2 msg:26 dest:-1 delay:0
+31084   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31175 rwId:721 READ tid:1 obj:0x410a2300 class:Landroid/widget/Toast; field:16
+31178 rwId:722 READ tid:1 obj:0x410a2300 class:Landroid/widget/Toast; field:8
+31180 rwId:723 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31186 rwId:724 READ tid:1 obj:0x410a2300 class:Landroid/widget/Toast; field:12
+31187 rwId:725 READ tid:1 obj:0x410a2300 class:Landroid/widget/Toast; field:16
+31188 rwId:726 READ tid:1 obj:0x410a2300 class:Landroid/widget/Toast; field:20
+31207   ACCESS tid:1 accessId:34
+31208   RET tid:1 msg:14 endAtomic
+31209   CALL tid:1 msg:15
+31210   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31211   POST src:3 msg:27 dest:-1 delay:0
+31212   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31213   POST src:1 msg:28 dest:-1 delay:0
+31214   RET tid:1 msg:15
+31215   CALL tid:1 msg:18 beginAtomic
+31216   RET tid:1 msg:18 endAtomic
+31217   CALL tid:1 msg:19
+31218   RET tid:1 msg:19
+31219   CALL tid:1 msg:20
+31220   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091046192
+31221   POST src:1 msg:29 dest:-1 delay:0
+31222   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31223   POST src:2 msg:30 dest:-1 delay:0
+31224   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31225   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31226   POST src:3 msg:31 dest:-1 delay:0
+31227   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31228   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31229   POST src:2 msg:32 dest:-1 delay:0
+31230   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31231   ENABLE-EVENT tid:1 view:1091109120 event:0
+31232   RET tid:1 msg:20
+31233   CALL tid:1 msg:21 beginAtomic
+31234   POST src:1 msg:33 dest:-1 delay:0
+31235   RET tid:1 msg:21 endAtomic
+31236   CALL tid:1 msg:22 beginAtomic
+31237   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:4 state:SERVICE-ARGS
+31245 rwId:727 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2137
+31247   ACCESS tid:1 accessId:35
+31248   LOCK tid:1 lock-obj:0x410628b0
+31249 rwId:728 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+31259 rwId:729 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+31260 rwId:730 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+31264   ACCESS tid:1 accessId:36
+31265   UNLOCK tid:1 lock-obj:0x410628b0
+31268   RET tid:1 msg:22 endAtomic
+31269   CALL tid:1 msg:23
+31270   RET tid:1 msg:23
+31271   CALL tid:1 msg:24
+31272   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31273   POST src:3 msg:34 dest:-1 delay:0
+31274   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31275   POST src:1 msg:35 dest:-1 delay:0
+31276   RET tid:1 msg:24
+31277   CALL tid:1 msg:17
+31278   POST src:1 msg:36 dest:-1 delay:0
+31279   RET tid:1 msg:17
+31280   CALL tid:1 msg:25
+31281   POST src:1 msg:37 dest:-1 delay:0
+31282   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+31283   RET tid:1 msg:25
+31284   CALL tid:1 msg:26
+31285   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091140248
+31286   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+31287   POST src:1 msg:38 dest:-1 delay:0
+31288   RET tid:1 msg:26
+31289   CALL tid:1 msg:27
+31290   RET tid:1 msg:27
+31291   CALL tid:1 msg:28
+31292   RET tid:1 msg:28
+31293   CALL tid:1 msg:29
+31294   RET tid:1 msg:29
+31295   CALL tid:1 msg:30
+31296   RET tid:1 msg:30
+31297   CALL tid:1 msg:31
+31298   RET tid:1 msg:31
+31299   CALL tid:1 msg:32
+31300   RET tid:1 msg:32
+31301   CALL tid:1 msg:33 beginAtomic
+31302   RET tid:1 msg:33 endAtomic
+31303   CALL tid:1 msg:34
+31304   RET tid:1 msg:34
+31305   CALL tid:1 msg:35
+31306   RET tid:1 msg:35
+31307   CALL tid:1 msg:36
+31308   RET tid:1 msg:36
+31309   CALL tid:1 msg:37
+31310   RET tid:1 msg:37
+31311   CALL tid:1 msg:38
+31312   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31313   POST src:2 msg:39 dest:-1 delay:0
+31314   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31315   POST src:1 msg:40 dest:-1 delay:0
+31316   RET tid:1 msg:38
+31317   CALL tid:1 msg:39
+31318   RET tid:1 msg:39
+31319   CALL tid:1 msg:40
+31320   RET tid:1 msg:40
+31321   POST src:1 msg:41 dest:-1 delay:0
+31322   CALL tid:1 msg:41
+31323   QUEUE_IDLE tid:1 idler:1091152824 queue:1090936520
+31324   RET tid:1 msg:41
+31325   REMOVE_IDLE_HANDLER idler:1091152824 queue:1090936520
+31326   POST src:1 msg:42 dest:-1 delay:0
+31327   CALL tid:1 msg:42
+31328   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31329   POST src:3 msg:43 dest:-1 delay:0
+31330   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31331   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31332   POST src:2 msg:44 dest:-1 delay:0
+31333   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31334   TRIGGER-EVENT tid:1 view:0 event:4
+31335   RET tid:1 msg:42
+31336   CALL tid:1 msg:43
+31337   POST src:1 msg:45 dest:-1 delay:0
+31338   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+31339   RET tid:1 msg:43
+31340   CALL tid:1 msg:44
+31341   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091172936
+31342   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091046192
+31343   POST src:1 msg:46 dest:-1 delay:0
+31344   RET tid:1 msg:44
+31345   CALL tid:1 msg:45
+31346   RET tid:1 msg:45
+31347   CALL tid:1 msg:46
+31348   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+31349   POST src:4 msg:47 dest:-1 delay:0
+31350   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+31351   POST src:1 msg:48 dest:-1 delay:0
+31352   RET tid:1 msg:46
+31353   CALL tid:1 msg:47
+31354   RET tid:1 msg:47
+31355   CALL tid:1 msg:48
+31356   RET tid:1 msg:48
+31357   POST src:1 msg:49 dest:-1 delay:0
+31358   CALL tid:1 msg:49
+31359   TRIGGER-EVENT tid:1 view:0 event:5
+31360   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:RELAUNCH-ACT
+31361   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+31362   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-ACT-CONFIG
+31363   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+31364   POST src:5 msg:50 dest:-1 delay:0
+31365   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+31366   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+31367   POST src:3 msg:51 dest:-1 delay:0
+31368   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+31369   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+31370   POST src:2 msg:52 dest:-1 delay:0
+31371   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+31372   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+31373   POST src:4 msg:53 dest:-1 delay:0
+31374   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+31375   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+31376   POST src:5 msg:54 dest:-1 delay:0
+31377   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+31378   RET tid:1 msg:49
+31379   CALL tid:1 msg:50
+31380   TRIGGER-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+31381   RET tid:1 msg:50
+31382   CALL tid:1 msg:51
+31383   RET tid:1 msg:51
+31384   CALL tid:1 msg:52 beginAtomic
+31385   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:RELAUNCH-ACT
+31386   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:PAUSE-ACT
+31389 rwId:731 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+31399 rwId:732 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+31416 rwId:733 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31417 rwId:734 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:8
+31418 rwId:735 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:8
+31419 rwId:736 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31420 rwId:737 WRITE tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31427 rwId:738 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31428 rwId:739 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:8
+31429 rwId:740 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31430 rwId:741 WRITE tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:12
+31431 rwId:742 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:16
+31432 rwId:743 READ tid:1 obj:0x410b6a78 class:Ljava/lang/StringBuilder; field:8
+31498 rwId:744 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31517 rwId:745 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31520 rwId:746 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+31521 rwId:747 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+31529 rwId:748 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31665 rwId:749 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31671 rwId:750 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31691 rwId:751 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31692 rwId:752 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31894 rwId:753 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+31906 rwId:754 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31907 rwId:755 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31924 rwId:756 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+31925 rwId:757 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32034 rwId:758 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+32040 rwId:759 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+32060 rwId:760 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32061 rwId:761 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32154 rwId:762 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32155 rwId:763 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32549 rwId:764 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32550 rwId:765 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32777 rwId:766 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+32811 rwId:767 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32812 rwId:768 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32828   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+32829   POST src:3 msg:55 dest:-1 delay:0
+32830   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+32831   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+32832   POST src:2 msg:56 dest:-1 delay:0
+32833   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+32834   EXIT tid:1 meth:getDimensionPixelSize class:Landroid/content/res/TypedArray; obj:0x410871d8
+32852 rwId:769 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32853 rwId:770 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+32975 rwId:771 READ tid:1 obj:0x410b6b80 class:Landroid/widget/Toast; field:16
+32978 rwId:772 READ tid:1 obj:0x410b6b80 class:Landroid/widget/Toast; field:8
+32980 rwId:773 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+32986 rwId:774 READ tid:1 obj:0x410b6b80 class:Landroid/widget/Toast; field:12
+32987 rwId:775 READ tid:1 obj:0x410b6b80 class:Landroid/widget/Toast; field:16
+32988 rwId:776 READ tid:1 obj:0x410b6b80 class:Landroid/widget/Toast; field:20
+33008 rwId:777 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:40
+33016 rwId:778 WRITE tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:208
+33018 rwId:779 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:236
+33020 rwId:780 READ tid:1 obj:0x4107f8f0 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33093   ACCESS tid:1 accessId:37
+33094   TRIGGER-SERVICE tid:1 component: id:1091043600 state:REQUEST_UNBIND_SERVICE
+33107   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+33108   POST src:4 msg:57 dest:-1 delay:0
+33109   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+33122   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:STOP-ACT
+33123   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091041520 state:DESTROY-ACT
+33124   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+33125   POST src:5 msg:58 dest:-1 delay:0
+33126   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+33127   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091172936
+33128   POST src:1 msg:59 dest:-1 delay:0
+33129   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+33236 rwId:781 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:112
+33245 rwId:782 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:88
+33246 rwId:783 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:112
+33249 rwId:784 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:88
+33257 rwId:785 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:40
+33265 rwId:786 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:208
+33269 rwId:787 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+33309 rwId:788 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33315 rwId:789 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33385 rwId:790 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33438 rwId:791 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33439 rwId:792 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+33441 rwId:793 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33451 rwId:794 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+33453 rwId:795 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33455 rwId:796 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33477 rwId:797 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33478 rwId:798 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:12
+33483 rwId:799 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33514 rwId:800 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33517 rwId:801 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33518 rwId:802 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:24
+33520 rwId:803 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+33527 rwId:804 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33545 rwId:805 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+33546 rwId:806 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+33570 rwId:807 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33584 rwId:808 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+33585 rwId:809 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+33599 rwId:810 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33606 rwId:811 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33627 rwId:812 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33662 rwId:813 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33798 rwId:814 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33804 rwId:815 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33824 rwId:816 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33825 rwId:817 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33923 rwId:818 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+33935 rwId:819 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33936 rwId:820 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33953 rwId:821 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+33954 rwId:822 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34063 rwId:823 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34069 rwId:824 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34089 rwId:825 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34090 rwId:826 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34334 rwId:827 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34346 rwId:828 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34347 rwId:829 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34380 rwId:830 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34381 rwId:831 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34428 rwId:832 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34429 rwId:833 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34578 rwId:834 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34579 rwId:835 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34613 rwId:836 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34614 rwId:837 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34697 rwId:838 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34703 rwId:839 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34723 rwId:840 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34724 rwId:841 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34969 rwId:842 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+34981 rwId:843 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+34982 rwId:844 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+35040 rwId:845 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+35041 rwId:846 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+35051 rwId:847 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35058 rwId:848 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35073 rwId:849 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:56
+35158 rwId:850 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:56
+35353 rwId:851 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35356 rwId:852 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+35357 rwId:853 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+35367 rwId:854 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35516 rwId:855 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35522 rwId:856 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+35542 rwId:857 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+35543 rwId:858 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36291 rwId:859 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+36303 rwId:860 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36304 rwId:861 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36337 rwId:862 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36338 rwId:863 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36376 rwId:864 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36377 rwId:865 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36411 rwId:866 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36412 rwId:867 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36496 rwId:868 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+36502 rwId:869 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+36522 rwId:870 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36523 rwId:871 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36599 rwId:872 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36600 rwId:873 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36750 rwId:874 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36751 rwId:875 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36791 rwId:876 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36792 rwId:877 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36910 rwId:878 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+36916 rwId:879 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+36936 rwId:880 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36937 rwId:881 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36995 rwId:882 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+36996 rwId:883 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37058 rwId:884 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37059 rwId:885 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37111 rwId:886 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37112 rwId:887 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37211 rwId:888 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+37262   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+37263   POST src:3 msg:60 dest:-1 delay:0
+37264   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+37265   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+37266   POST src:2 msg:61 dest:-1 delay:0
+37267   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+37338 rwId:889 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+37344 rwId:890 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+37364 rwId:891 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+37365 rwId:892 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38105 rwId:893 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+38117 rwId:894 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38118 rwId:895 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38151 rwId:896 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38152 rwId:897 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38190 rwId:898 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38191 rwId:899 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38225 rwId:900 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38226 rwId:901 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38310 rwId:902 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+38316 rwId:903 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+38336 rwId:904 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38337 rwId:905 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38413 rwId:906 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38414 rwId:907 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38564 rwId:908 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38565 rwId:909 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38605 rwId:910 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38606 rwId:911 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38724 rwId:912 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+38730 rwId:913 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+38750 rwId:914 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38751 rwId:915 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38809 rwId:916 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38810 rwId:917 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38872 rwId:918 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38873 rwId:919 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38925 rwId:920 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+38926 rwId:921 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+39252   ACCESS tid:1 accessId:38
+39253   ENABLE-EVENT tid:1 view:1091298568 event:0
+39704 rwId:922 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+39707 rwId:923 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+39708 rwId:924 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+39716 rwId:925 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+39852 rwId:926 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+39858 rwId:927 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+39878 rwId:928 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+39879 rwId:929 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40631 rwId:930 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+40643 rwId:931 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40644 rwId:932 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40661 rwId:933 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40662 rwId:934 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40715 rwId:935 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40716 rwId:936 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40750 rwId:937 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40751 rwId:938 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40835 rwId:939 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+40841 rwId:940 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+40861 rwId:941 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40862 rwId:942 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40938 rwId:943 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+40939 rwId:944 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41089 rwId:945 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41090 rwId:946 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41124 rwId:947 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41125 rwId:948 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41246 rwId:949 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+41252 rwId:950 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+41272 rwId:951 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41273 rwId:952 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41357 rwId:953 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+41369 rwId:954 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41370 rwId:955 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41387 rwId:956 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41388 rwId:957 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41444 rwId:958 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41445 rwId:959 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41479 rwId:960 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41480 rwId:961 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41563 rwId:962 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+41569 rwId:963 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+41589 rwId:964 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41590 rwId:965 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41683 rwId:966 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41684 rwId:967 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+41771   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+41772   POST src:4 msg:62 dest:-1 delay:0
+41773   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+42147 rwId:968 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42148 rwId:969 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42375 rwId:970 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+42409 rwId:971 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42410 rwId:972 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42444 rwId:973 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42445 rwId:974 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42565 rwId:975 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+42571 rwId:976 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+42591 rwId:977 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42592 rwId:978 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42715 rwId:979 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+42716 rwId:980 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43164 rwId:981 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43165 rwId:982 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43238 rwId:983 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+43272 rwId:984 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43273 rwId:985 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43319 rwId:986 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43320 rwId:987 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43487   ACCESS tid:1 accessId:39
+43488   ENABLE-EVENT tid:1 view:1091305400 event:0
+43587 rwId:988 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43588 rwId:989 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43777 rwId:990 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+43778 rwId:991 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44332 rwId:992 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+44376   ACCESS tid:1 accessId:40
+44377   ENABLE-EVENT tid:1 view:1091291312 event:0
+44611 rwId:993 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44612 rwId:994 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44646 rwId:995 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44647 rwId:996 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44799 rwId:997 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+44805 rwId:998 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+44825 rwId:999 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+44826 rwId:1000 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45050 rwId:1001 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45062 rwId:1002 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45063 rwId:1003 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45085 rwId:1004 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45086 rwId:1005 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45312 rwId:1006 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45313 rwId:1007 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45347 rwId:1008 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45348 rwId:1009 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45514 rwId:1010 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45520 rwId:1011 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45540 rwId:1012 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45541 rwId:1013 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45629 rwId:1014 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45641 rwId:1015 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45642 rwId:1016 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45675 rwId:1017 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45676 rwId:1018 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45716 rwId:1019 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45717 rwId:1020 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45757 rwId:1021 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45758 rwId:1022 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45878 rwId:1023 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45884 rwId:1024 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+45904 rwId:1025 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+45905 rwId:1026 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46167 rwId:1027 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+46179 rwId:1028 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46180 rwId:1029 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46213 rwId:1030 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46214 rwId:1031 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46259 rwId:1032 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46260 rwId:1033 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46461 rwId:1034 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46462 rwId:1035 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46496 rwId:1036 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46497 rwId:1037 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+46688 rwId:1038 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47045 rwId:1039 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+47046 rwId:1040 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:68
+47409 rwId:1041 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47547 rwId:1042 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47553 rwId:1043 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47573 rwId:1044 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47574 rwId:1045 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47658 rwId:1046 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47670 rwId:1047 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47671 rwId:1048 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47688 rwId:1049 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47689 rwId:1050 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47745 rwId:1051 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47746 rwId:1052 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47780 rwId:1053 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47781 rwId:1054 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47862 rwId:1055 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47868 rwId:1056 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+47888 rwId:1057 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47889 rwId:1058 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47978 rwId:1059 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+47979 rwId:1060 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48355 rwId:1061 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48356 rwId:1062 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48581 rwId:1063 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+48615 rwId:1064 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48616 rwId:1065 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48650 rwId:1066 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48651 rwId:1067 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+48774 rwId:1068 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+48780 rwId:1069 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+48802 rwId:1070 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+48931 rwId:1071 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+48946 rwId:1072 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49075 rwId:1073 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49092 rwId:1074 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+49093 rwId:1075 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+49122 rwId:1076 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49240 rwId:1077 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49415 rwId:1078 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49498 rwId:1079 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49510 rwId:1080 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+49511 rwId:1081 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+49553   ACCESS tid:1 accessId:41
+49554   ENABLE-EVENT tid:1 view:1091325616 event:0
+49668 rwId:1082 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49694 rwId:1083 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+49703 rwId:1084 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+49704 rwId:1085 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50638 rwId:1086 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50639 rwId:1087 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50765 rwId:1088 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50766 rwId:1089 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50800 rwId:1090 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+50801 rwId:1091 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+51068 rwId:1092 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+51159 rwId:1093 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+51236 rwId:1094 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+51237 rwId:1095 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+51238 rwId:1096 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:224
+51239 rwId:1097 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:228
+51242 rwId:1098 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:232
+51243 rwId:1099 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:220
+51244 rwId:1100 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:216
+51264   ACCESS tid:1 accessId:42
+51265   POST src:1 msg:63 dest:-1 delay:0
+51271 rwId:1101 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:232
+51276 rwId:1102 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+51281 rwId:1103 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:120
+51287 rwId:1104 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:28
+51338 rwId:1105 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+51512 rwId:1106 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+51617 rwId:1107 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+51641 rwId:1108 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:48
+51704 rwId:1109 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:28
+51708 rwId:1110 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+51715 rwId:1111 WRITE tid:1 obj:0x410c69a8 class:Landroid/content/Intent; field:8
+51717 rwId:1112 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+51719 rwId:1113 READ tid:1 obj:0x410c69a8 class:Landroid/content/Intent; field:24
+51736 rwId:1114 WRITE tid:1 obj:0x410c69a8 class:Landroid/content/Intent; field:24
+51737 rwId:1115 READ tid:1 obj:0x410c69a8 class:Landroid/content/Intent; field:24
+51768 rwId:1116 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+51815   ACCESS tid:1 accessId:43
+51816   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:0 intent:5 onRecLater:-1 state:ABC_SEND_BROADCAST
+51913   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+51914   POST src:5 msg:64 dest:-1 delay:0
+51915   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+51928   INSTANCE-INTENT tid:1 instance:1091276296 intentId:1
+51929   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091276296 state:RESUME-ACT
+51933 rwId:1117 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:40
+51941 rwId:1118 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:208
+51950 rwId:1119 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+51960 rwId:1120 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:236
+51962 rwId:1121 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52225   ACCESS tid:1 accessId:44
+52226   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:1091276832 state:REQUEST_BIND_SERVICE
+52307   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+52308   POST src:3 msg:65 dest:-1 delay:0
+52309   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+52380 rwId:1122 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52399 rwId:1123 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52402 rwId:1124 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+52403 rwId:1125 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+52411 rwId:1126 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52555 rwId:1127 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52561 rwId:1128 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52581 rwId:1129 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52582 rwId:1130 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52784 rwId:1131 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52796 rwId:1132 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52797 rwId:1133 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52814 rwId:1134 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52815 rwId:1135 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52924 rwId:1136 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52930 rwId:1137 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+52950 rwId:1138 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+52951 rwId:1139 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53044 rwId:1140 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53045 rwId:1141 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53439 rwId:1142 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53440 rwId:1143 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53667 rwId:1144 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+53701 rwId:1145 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53702 rwId:1146 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53736 rwId:1147 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53737 rwId:1148 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+53859 rwId:1149 READ tid:1 obj:0x410c8e10 class:Landroid/widget/Toast; field:16
+53862 rwId:1150 READ tid:1 obj:0x410c8e10 class:Landroid/widget/Toast; field:8
+53864 rwId:1151 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+53870 rwId:1152 READ tid:1 obj:0x410c8e10 class:Landroid/widget/Toast; field:12
+53871 rwId:1153 READ tid:1 obj:0x410c8e10 class:Landroid/widget/Toast; field:16
+53872 rwId:1154 READ tid:1 obj:0x410c8e10 class:Landroid/widget/Toast; field:20
+53880   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+53881   POST src:2 msg:66 dest:-1 delay:0
+53882   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+53894 rwId:1155 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54109   ACCESS tid:1 accessId:45
+54110   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:6 state:REQUEST_START_SERVICE
+54199   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+54200   POST src:4 msg:67 dest:-1 delay:0
+54201   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+54229 rwId:1156 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity; field:2120
+54246 rwId:1157 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54247 rwId:1158 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:8
+54248 rwId:1159 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:8
+54249 rwId:1160 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54250 rwId:1161 WRITE tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54257 rwId:1162 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54258 rwId:1163 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:8
+54259 rwId:1164 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54260 rwId:1165 WRITE tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:12
+54261 rwId:1166 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:16
+54262 rwId:1167 READ tid:1 obj:0x410ca730 class:Ljava/lang/StringBuilder; field:8
+54328 rwId:1168 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54347 rwId:1169 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54350 rwId:1170 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+54351 rwId:1171 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+54359 rwId:1172 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54467 rwId:1173 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54473 rwId:1174 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54493 rwId:1175 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54494 rwId:1176 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54696 rwId:1177 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54708 rwId:1178 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54709 rwId:1179 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54726 rwId:1180 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54727 rwId:1181 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54836 rwId:1182 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54842 rwId:1183 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+54862 rwId:1184 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54863 rwId:1185 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54956 rwId:1186 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+54957 rwId:1187 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55351 rwId:1188 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55352 rwId:1189 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55579 rwId:1190 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+55613 rwId:1191 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55614 rwId:1192 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55648 rwId:1193 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55649 rwId:1194 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+55771 rwId:1195 READ tid:1 obj:0x410ca7c8 class:Landroid/widget/Toast; field:16
+55774 rwId:1196 READ tid:1 obj:0x410ca7c8 class:Landroid/widget/Toast; field:8
+55776 rwId:1197 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+55782 rwId:1198 READ tid:1 obj:0x410ca7c8 class:Landroid/widget/Toast; field:12
+55783 rwId:1199 READ tid:1 obj:0x410ca7c8 class:Landroid/widget/Toast; field:16
+55784 rwId:1200 READ tid:1 obj:0x410ca7c8 class:Landroid/widget/Toast; field:20
+55861 rwId:1201 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+55880 rwId:1202 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+55883 rwId:1203 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+55884 rwId:1204 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+55892 rwId:1205 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56000 rwId:1206 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56006 rwId:1207 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56026 rwId:1208 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56027 rwId:1209 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56229 rwId:1210 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56241 rwId:1211 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56242 rwId:1212 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56259 rwId:1213 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56260 rwId:1214 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56369 rwId:1215 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56375 rwId:1216 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+56395 rwId:1217 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56396 rwId:1218 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56489 rwId:1219 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56490 rwId:1220 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56884 rwId:1221 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+56885 rwId:1222 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+57112 rwId:1223 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+57146 rwId:1224 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+57147 rwId:1225 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+57181 rwId:1226 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+57182 rwId:1227 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+57304 rwId:1228 READ tid:1 obj:0x410cb488 class:Landroid/widget/Toast; field:16
+57307 rwId:1229 READ tid:1 obj:0x410cb488 class:Landroid/widget/Toast; field:8
+57309 rwId:1230 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+57315 rwId:1231 READ tid:1 obj:0x410cb488 class:Landroid/widget/Toast; field:12
+57316 rwId:1232 READ tid:1 obj:0x410cb488 class:Landroid/widget/Toast; field:16
+57317 rwId:1233 READ tid:1 obj:0x410cb488 class:Landroid/widget/Toast; field:20
+57336 rwId:1234 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+57527   ACCESS tid:1 accessId:46
+57528   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:8999 state:REQUEST_STOP_SERVICE
+57629   ENABLE-EVENT tid:1 view:0 event:3
+57630   ENABLE-EVENT tid:1 view:0 event:4
+57631   ENABLE-EVENT tid:1 view:0 event:5
+57632   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57633   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091172936
+57634   POST src:1 msg:68 dest:-1 delay:0
+57635   ADD_IDLE_HANDLER idler:1091362848 queue:1090936520
+57636   RET tid:1 msg:52 endAtomic
+57637   CALL tid:1 msg:53
+57638   RET tid:1 msg:53
+57639   CALL tid:1 msg:54
+57640   POST src:1 msg:69 dest:-1 delay:0
+57641   RET tid:1 msg:54
+57642   CALL tid:1 msg:55
+57643   POST src:1 msg:70 dest:-1 delay:0
+57644   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57645   RET tid:1 msg:55
+57646   CALL tid:1 msg:56
+57647   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091183784
+57648   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57649   POST src:1 msg:71 dest:-1 delay:0
+57650   RET tid:1 msg:56
+57651   CALL tid:1 msg:57 beginAtomic
+57652   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:0 state:UNBIND-SERVICE
+57653   RET tid:1 msg:57 endAtomic
+57654   CALL tid:1 msg:58
+57655   RET tid:1 msg:58
+57656   CALL tid:1 msg:59 beginAtomic
+57657   RET tid:1 msg:59 endAtomic
+57658   CALL tid:1 msg:60
+57659   POST src:1 msg:72 dest:-1 delay:0
+57660   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57661   RET tid:1 msg:60
+57662   CALL tid:1 msg:61
+57663   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091268192
+57664   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57665   POST src:1 msg:73 dest:-1 delay:0
+57666   RET tid:1 msg:61
+57667   CALL tid:1 msg:62
+57668   POST src:1 msg:74 dest:-1 delay:0
+57669   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+57670   RET tid:1 msg:62
+57671   CALL tid:1 msg:63 beginAtomic
+57672   RET tid:1 msg:63 endAtomic
+57673   CALL tid:1 msg:64
+57680   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:1091266200 intent:5 onRecLater:-1 state:ABC_ONRECEIVE
+57682 rwId:1235 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyScheduleReceiver; field:2137
+57684   ACCESS tid:1 accessId:47
+57685   LOCK tid:1 lock-obj:0x410628b0
+57686 rwId:1236 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+57696 rwId:1237 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+57697 rwId:1238 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+57701   ACCESS tid:1 accessId:48
+57702   UNLOCK tid:1 lock-obj:0x410628b0
+57705 rwId:1239 READ tid:1 obj:0x410c6ae8 class:Landroid/content/Intent; field:24
+57706 rwId:1240 READ tid:1 obj:0x410c6ae8 class:Landroid/content/Intent; field:24
+57720   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+57721   POST src:5 msg:75 dest:-1 delay:0
+57722   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+57723   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+57724   POST src:3 msg:76 dest:-1 delay:0
+57725   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+57810   ACCESS tid:1 accessId:49
+57811   LOCK tid:1 lock-obj:0x410b6740
+57812 rwId:1241 READ tid:1 obj:0x410b6740 class:Landroid/os/Bundle; field:8
+57813   ACCESS tid:1 accessId:50
+57814   UNLOCK tid:1 lock-obj:0x410b6740
+57816 rwId:1242 READ tid:1 obj:0x410b6740 class:Landroid/os/Bundle; field:16
+57823 rwId:1243 READ tid:1 obj:0x4109b0b8 class:Landroid/app/ReceiverRestrictedContext; field:8
+58084 rwId:1244 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:92
+58086 rwId:1245 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:48
+58087 rwId:1246 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58089 rwId:1247 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58090 rwId:1248 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58091 rwId:1249 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:52
+58093 rwId:1250 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:48
+58094 rwId:1251 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:52
+58097 rwId:1252 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:8
+58099 rwId:1253 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58116 rwId:1254 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58117 rwId:1255 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58118 rwId:1256 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58119 rwId:1257 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58120 rwId:1258 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58121 rwId:1259 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58122 rwId:1260 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:92
+58123 rwId:1261 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58126 rwId:1262 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:72
+58128 rwId:1263 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:60
+58130 rwId:1264 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58132 rwId:1265 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58133 rwId:1266 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58134 rwId:1267 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:60
+58135 rwId:1268 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58137 rwId:1269 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:60
+58143 rwId:1270 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58146 rwId:1271 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58148 rwId:1272 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:8
+58150 rwId:1273 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58151 rwId:1274 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58162 rwId:1275 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58163 rwId:1276 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58164 rwId:1277 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58165 rwId:1278 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58166 rwId:1279 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58167 rwId:1280 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58168 rwId:1281 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58169 rwId:1282 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58170 rwId:1283 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58171 rwId:1284 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58172 rwId:1285 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58173 rwId:1286 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58174 rwId:1287 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58175 rwId:1288 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58176 rwId:1289 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58177 rwId:1290 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58179 rwId:1291 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:20
+58183 rwId:1292 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58185 rwId:1293 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:20
+58189 rwId:1294 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58191 rwId:1295 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:44
+58193 rwId:1296 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58196 rwId:1297 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58198 rwId:1298 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58199 rwId:1299 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58200 rwId:1300 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58201 rwId:1301 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58202 rwId:1302 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58203 rwId:1303 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58204 rwId:1304 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58205 rwId:1305 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58206 rwId:1306 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58207 rwId:1307 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58208 rwId:1308 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58209 rwId:1309 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58210 rwId:1310 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58211 rwId:1311 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58212 rwId:1312 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58213 rwId:1313 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58214 rwId:1314 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:16
+58215 rwId:1315 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:92
+58218 rwId:1316 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58219 rwId:1317 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58220 rwId:1318 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58221 rwId:1319 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58222 rwId:1320 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58223 rwId:1321 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58224 rwId:1322 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58225 rwId:1323 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58226 rwId:1324 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58227 rwId:1325 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58228 rwId:1326 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58229 rwId:1327 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58230 rwId:1328 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58231 rwId:1329 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58232 rwId:1330 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58233 rwId:1331 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58234 rwId:1332 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58235 rwId:1333 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:56
+58236 rwId:1334 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58237 rwId:1335 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58238 rwId:1336 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58239 rwId:1337 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58240 rwId:1338 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:64
+58241 rwId:1339 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58242 rwId:1340 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58243 rwId:1341 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:12
+58244 rwId:1342 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:80
+58245 rwId:1343 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:92
+58247 rwId:1344 WRITE tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:52
+58251 rwId:1345 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:48
+58252 rwId:1346 READ tid:1 obj:0x410b66c0 class:Ljava/util/GregorianCalendar; field:24
+58255 rwId:1347 READ tid:1 obj:0x4109b4b8 class:Landroid/app/AlarmManager; field:8
+58276   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+58277   POST src:2 msg:77 dest:-1 delay:0
+58278   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+58279   ACCESS tid:1 accessId:51
+58280   RET tid:1 msg:64
+58281   CALL tid:1 msg:65 beginAtomic
+58282   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:1091276832 state:SERVICE_CONNECT
+58284 rwId:1348 READ tid:1 obj:0x410b9020 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:8
+58286 rwId:1349 READ tid:1 obj:0x4109cb48 class:Lde/vogella/android/ownservice/local/LocalWordService$MyBinder; field:20
+58289 rwId:1350 WRITE tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:240
+58291 rwId:1351 READ tid:1 obj:0x410b9020 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:8
+58300 rwId:1352 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MainActivity$1; field:2120
+58317 rwId:1353 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58318 rwId:1354 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:8
+58319 rwId:1355 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:8
+58320 rwId:1356 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58321 rwId:1357 WRITE tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58328 rwId:1358 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58329 rwId:1359 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:8
+58330 rwId:1360 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58331 rwId:1361 WRITE tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:12
+58332 rwId:1362 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:16
+58333 rwId:1363 READ tid:1 obj:0x4108ee20 class:Ljava/lang/StringBuilder; field:8
+58399 rwId:1364 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58418 rwId:1365 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58421 rwId:1366 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+58422 rwId:1367 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:16
+58430 rwId:1368 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58538 rwId:1369 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58544 rwId:1370 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58564 rwId:1371 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58565 rwId:1372 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58767 rwId:1373 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58779 rwId:1374 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58780 rwId:1375 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58797 rwId:1376 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58798 rwId:1377 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58907 rwId:1378 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58913 rwId:1379 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+58933 rwId:1380 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+58934 rwId:1381 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59027 rwId:1382 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59028 rwId:1383 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59422 rwId:1384 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59423 rwId:1385 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59650 rwId:1386 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+59684 rwId:1387 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59685 rwId:1388 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59719 rwId:1389 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59720 rwId:1390 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:20
+59842 rwId:1391 READ tid:1 obj:0x4108f148 class:Landroid/widget/Toast; field:16
+59845 rwId:1392 READ tid:1 obj:0x4108f148 class:Landroid/widget/Toast; field:8
+59847 rwId:1393 READ tid:1 obj:0x410b8e08 class:Lde/vogella/android/ownservice/local/MainActivity; field:8
+59853 rwId:1394 READ tid:1 obj:0x4108f148 class:Landroid/widget/Toast; field:12
+59854 rwId:1395 READ tid:1 obj:0x4108f148 class:Landroid/widget/Toast; field:16
+59855 rwId:1396 READ tid:1 obj:0x4108f148 class:Landroid/widget/Toast; field:20
+59874   ACCESS tid:1 accessId:52
+59875   RET tid:1 msg:65 endAtomic
+59876   CALL tid:1 msg:66
+59877   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091342576
+59878   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+59879   POST src:1 msg:78 dest:-1 delay:0
+59880   RET tid:1 msg:66
+59881   CALL tid:1 msg:67 beginAtomic
+59882   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:6 state:SERVICE-ARGS
+59890 rwId:1397 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2137
+59892   ACCESS tid:1 accessId:53
+59893   LOCK tid:1 lock-obj:0x410628b0
+59894 rwId:1398 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+59904 rwId:1399 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+59905 rwId:1400 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+59909   ACCESS tid:1 accessId:54
+59910   UNLOCK tid:1 lock-obj:0x410628b0
+59913   RET tid:1 msg:67 endAtomic
+59914   CALL tid:1 msg:68 beginAtomic
+59915   POST src:1 msg:79 dest:-1 delay:1200
+59916   POST src:1 msg:80 dest:-1 delay:1198
+59917   POST src:1 msg:81 dest:-1 delay:0
+59918   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+59919   POST src:4 msg:82 dest:-1 delay:0
+59920   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+59921   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+59922   POST src:5 msg:83 dest:-1 delay:0
+59923   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+59924   POST src:1 msg:84 dest:-1 delay:0
+59925   RET tid:1 msg:68 endAtomic
+59926   CALL tid:1 msg:69
+59927   RET tid:1 msg:69
+59928   CALL tid:1 msg:70
+59929   RET tid:1 msg:70
+59930   CALL tid:1 msg:71
+59931   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+59932   POST src:3 msg:85 dest:-1 delay:0
+59933   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+59934   POST src:1 msg:86 dest:-1 delay:0
+59935   RET tid:1 msg:71
+59936   CALL tid:1 msg:72
+59937   RET tid:1 msg:72
+59938   CALL tid:1 msg:73
+59939   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+59940   POST src:2 msg:87 dest:-1 delay:0
+59941   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+59942   POST src:1 msg:88 dest:-1 delay:0
+59943   RET tid:1 msg:73
+59944   CALL tid:1 msg:74
+59945   RET tid:1 msg:74
+59946   CALL tid:1 msg:75
+59947   POST src:1 msg:89 dest:-1 delay:0
+59948   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+59949   RET tid:1 msg:75
+59950   CALL tid:1 msg:76
+59951   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091348848
+59952   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+59953   POST src:1 msg:90 dest:-1 delay:0
+59954   RET tid:1 msg:76
+59955   CALL tid:1 msg:77
+59962   TRIGGER-BROADCAST tid:1 action:MyBroadcast component:1090990112 intent:5 onRecLater:-1 state:ABC_ONRECEIVE
+59983 rwId:1401 READ tid:1 obj:0x410b10d8 class:Landroid/content/Intent; field:24
+59984 rwId:1402 READ tid:1 obj:0x410b10d8 class:Landroid/content/Intent; field:24
+60082   ACCESS tid:1 accessId:55
+60083   LOCK tid:1 lock-obj:0x410b4150
+60084 rwId:1403 READ tid:1 obj:0x410b4150 class:Landroid/os/Bundle; field:8
+60085   ACCESS tid:1 accessId:56
+60086   UNLOCK tid:1 lock-obj:0x410b4150
+60088 rwId:1404 READ tid:1 obj:0x410b4150 class:Landroid/os/Bundle; field:16
+60094 rwId:1405 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2115
+60096 rwId:1406 READ tid:1 obj:0x4109c7b0 class:Ljava/util/ArrayList; field:16
+60108 rwId:1407 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60109 rwId:1408 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60111 rwId:1409 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60112 rwId:1410 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60113 rwId:1411 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60114 rwId:1412 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60115 rwId:1413 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60116 rwId:1414 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:12
+60118 rwId:1415 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60119 rwId:1416 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60122 rwId:1417 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60127 rwId:1418 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60128 rwId:1419 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60129 rwId:1420 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60130 rwId:1421 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60133 rwId:1422 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60136 rwId:1423 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2120
+60153 rwId:1424 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60154 rwId:1425 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60155 rwId:1426 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60156 rwId:1427 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60157 rwId:1428 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60164 rwId:1429 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60165 rwId:1430 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60166 rwId:1431 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60167 rwId:1432 WRITE tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:12
+60168 rwId:1433 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:16
+60169 rwId:1434 READ tid:1 obj:0x410b2608 class:Ljava/lang/StringBuilder; field:8
+60386   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+60387   POST src:4 msg:91 dest:-1 delay:0
+60388   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+60389   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+60390   POST src:5 msg:92 dest:-1 delay:0
+60391   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+61677 rwId:1435 READ tid:1 obj:0x410b1e50 class:Landroid/widget/Toast; field:16
+61680 rwId:1436 READ tid:1 obj:0x410b1e50 class:Landroid/widget/Toast; field:8
+61689 rwId:1437 READ tid:1 obj:0x410b1e50 class:Landroid/widget/Toast; field:12
+61690 rwId:1438 READ tid:1 obj:0x410b1e50 class:Landroid/widget/Toast; field:16
+61691 rwId:1439 READ tid:1 obj:0x410b1e50 class:Landroid/widget/Toast; field:20
+61709 rwId:1440 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2137
+61720   ACCESS tid:1 accessId:57
+61721   LOCK tid:1 lock-obj:0x410b4150
+61722 rwId:1441 READ tid:1 obj:0x410b4150 class:Landroid/os/Bundle; field:8
+61723   ACCESS tid:1 accessId:58
+61724   UNLOCK tid:1 lock-obj:0x410b4150
+61726 rwId:1442 READ tid:1 obj:0x410b4150 class:Landroid/os/Bundle; field:16
+61746 rwId:1443 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61747 rwId:1444 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:8
+61748 rwId:1445 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:8
+61749 rwId:1446 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61752 rwId:1447 WRITE tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61757 rwId:1448 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61758 rwId:1449 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:8
+61759 rwId:1450 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61760 rwId:1451 WRITE tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:12
+61761 rwId:1452 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:16
+61762 rwId:1453 READ tid:1 obj:0x410a7938 class:Ljava/lang/StringBuilder; field:8
+61770   ACCESS tid:1 accessId:59
+61771   LOCK tid:1 lock-obj:0x410628b0
+61772 rwId:1454 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+61782 rwId:1455 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+61783 rwId:1456 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+61787   ACCESS tid:1 accessId:60
+61788   UNLOCK tid:1 lock-obj:0x410628b0
+61790 rwId:1457 WRITE-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2120
+61791 rwId:1458 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/MyStartServiceReceiver; field:2137
+61793   ACCESS tid:1 accessId:61
+61794   LOCK tid:1 lock-obj:0x410628b0
+61795 rwId:1459 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+61805 rwId:1460 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+61806 rwId:1461 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+61810   ACCESS tid:1 accessId:62
+61811   UNLOCK tid:1 lock-obj:0x410628b0
+61814 rwId:1462 READ tid:1 obj:0x4109b0b8 class:Landroid/app/ReceiverRestrictedContext; field:8
+62016   ACCESS tid:1 accessId:63
+62017   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:7 state:REQUEST_START_SERVICE
+62116   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+62117   POST src:3 msg:93 dest:-1 delay:0
+62118   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+62140   RET tid:1 msg:77
+62141   CALL tid:1 msg:78
+62142   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+62143   POST src:2 msg:94 dest:-1 delay:0
+62144   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+62145   POST src:1 msg:95 dest:-1 delay:0
+62146   RET tid:1 msg:78
+62147   CALL tid:1 msg:81 beginAtomic
+62148   RET tid:1 msg:81 endAtomic
+62149   CALL tid:1 msg:82
+62150   RET tid:1 msg:82
+62151   CALL tid:1 msg:83
+62152   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091279112
+62153   POST src:1 msg:96 dest:-1 delay:0
+62154   NATIVE-ENTRY tid:4 thread-name:Binder Thread #3
+62155   POST src:4 msg:97 dest:-1 delay:0
+62156   NATIVE-EXIT tid:4 thread-name:Binder Thread #3
+62157   ENABLE-EVENT tid:1 view:1091325616 event:0
+62158   RET tid:1 msg:83
+62159   CALL tid:1 msg:84 beginAtomic
+62160   RET tid:1 msg:84 endAtomic
+62161   CALL tid:1 msg:85
+62162   RET tid:1 msg:85
+62163   CALL tid:1 msg:86
+62164   RET tid:1 msg:86
+62165   CALL tid:1 msg:87
+62166   RET tid:1 msg:87
+62167   CALL tid:1 msg:88
+62168   RET tid:1 msg:88
+62169   CALL tid:1 msg:89
+62170   RET tid:1 msg:89
+62171   CALL tid:1 msg:90
+62172   NATIVE-ENTRY tid:5 thread-name:Binder Thread #4
+62173   POST src:5 msg:98 dest:-1 delay:0
+62174   NATIVE-EXIT tid:5 thread-name:Binder Thread #4
+62175   POST src:1 msg:99 dest:-1 delay:0
+62176   RET tid:1 msg:90
+62177   CALL tid:1 msg:91
+62178   POST src:1 msg:100 dest:-1 delay:0
+62179   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+62180   RET tid:1 msg:91
+62181   CALL tid:1 msg:92
+62182   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091352112
+62183   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091279112
+62184   POST src:1 msg:101 dest:-1 delay:0
+62185   RET tid:1 msg:92
+62186   CALL tid:1 msg:80
+62187   POST src:1 msg:102 dest:-1 delay:0
+62188   RET tid:1 msg:80
+62189   CALL tid:1 msg:93 beginAtomic
+62190   TRIGGER-SERVICE tid:1 component:de.vogella.android.ownservice.local.LocalWordService id:7 state:SERVICE-ARGS
+62198 rwId:1463 READ-STATIC tid:1 class:Lde/vogella/android/ownservice/local/LocalWordService; field:2137
+62200   ACCESS tid:1 accessId:64
+62201   LOCK tid:1 lock-obj:0x410628b0
+62202 rwId:1464 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+62212 rwId:1465 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+62213 rwId:1466 READ tid:1 obj:0x410628b0 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+62217   ACCESS tid:1 accessId:65
+62218   UNLOCK tid:1 lock-obj:0x410628b0
+62221   RET tid:1 msg:93 endAtomic
+62222   CALL tid:1 msg:94
+62223   RET tid:1 msg:94
+62224   CALL tid:1 msg:95
+62225   RET tid:1 msg:95
+62226   CALL tid:1 msg:96
+62227   RET tid:1 msg:96
+62228   CALL tid:1 msg:97
+62229   RET tid:1 msg:97
+62230   CALL tid:1 msg:98
+62231   RET tid:1 msg:98
+62232   CALL tid:1 msg:99
+62233   RET tid:1 msg:99
+62234   CALL tid:1 msg:100
+62235   RET tid:1 msg:100
+62236   CALL tid:1 msg:101
+62237   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+62238   POST src:3 msg:103 dest:-1 delay:0
+62239   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+62240   POST src:1 msg:104 dest:-1 delay:0
+62241   RET tid:1 msg:101
+62242   CALL tid:1 msg:102
+62243   RET tid:1 msg:102
+62244   CALL tid:1 msg:103
+62245   RET tid:1 msg:103
+62246   CALL tid:1 msg:104
+62247   RET tid:1 msg:104
+62248   POST src:1 msg:105 dest:-1 delay:0
+62249   CALL tid:1 msg:105
+62250   QUEUE_IDLE tid:1 idler:1091362848 queue:1090936520
+62251   RET tid:1 msg:105
+62252   REMOVE_IDLE_HANDLER idler:1091362848 queue:1090936520

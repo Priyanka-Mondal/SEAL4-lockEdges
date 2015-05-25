@@ -1,0 +1,1690 @@
+1   START
+2   THREADINIT tid:1
+3   ENABLE-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+4   ATTACH-Q tid:1 queue:1090931784
+5   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+6   POST src:2 msg:1 dest:-1 delay:0
+7   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+8   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+9   POST src:2 msg:2 dest:-1 delay:0
+10   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+11   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+12   POST src:2 msg:3 dest:-1 delay:0
+13   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+14   LOOP tid:1 queue:1090931784
+15   CALL tid:1 msg:1
+16   RET tid:1 msg:1
+17   CALL tid:1 msg:2
+18   TRIGGER-LIFECYCLE tid:1 component: id:0 state:BIND-APP
+19   ENABLE-LIFECYCLE tid:1 component: id:0 state:BINDAPP-DONE
+20   ENABLE-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+21   RET tid:1 msg:2
+22   CALL tid:1 msg:3 beginAtomic
+23   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+138 rwId:1 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:112
+139 rwId:2 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:88
+147 rwId:3 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:40
+155 rwId:4 WRITE tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:208
+159 rwId:5 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:48
+199 rwId:6 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+205 rwId:7 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+221 rwId:8 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+330 rwId:9 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+383 rwId:10 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+384 rwId:11 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+410 rwId:12 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:120
+411 rwId:13 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:68
+435 rwId:14 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+449 rwId:15 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:120
+450 rwId:16 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:68
+464 rwId:17 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+471 rwId:18 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+492 rwId:19 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+527 rwId:20 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+633 rwId:21 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+746 rwId:22 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+752 rwId:23 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+772 rwId:24 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+773 rwId:25 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+871 rwId:26 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+883 rwId:27 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+884 rwId:28 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+901 rwId:29 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+902 rwId:30 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+976 rwId:31 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1058 rwId:32 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1064 rwId:33 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1084 rwId:34 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1085 rwId:35 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1419 rwId:36 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1431 rwId:37 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1432 rwId:38 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1465 rwId:39 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1466 rwId:40 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1515 rwId:41 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1516 rwId:42 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1687 rwId:43 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1688 rwId:44 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1722 rwId:45 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1723 rwId:46 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1771 rwId:47 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1853 rwId:48 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1859 rwId:49 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+1879 rwId:50 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+1880 rwId:51 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2127 rwId:52 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2139 rwId:53 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2140 rwId:54 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2200 rwId:55 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2201 rwId:56 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2211 rwId:57 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2218 rwId:58 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2233 rwId:59 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:56
+2318 rwId:60 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:56
+2641 rwId:61 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2644 rwId:62 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:16
+2645 rwId:63 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:16
+2655 rwId:64 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2773 rwId:65 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2855 rwId:66 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2861 rwId:67 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+2881 rwId:68 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+2882 rwId:69 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3772 rwId:70 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+3784 rwId:71 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3785 rwId:72 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3818 rwId:73 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3819 rwId:74 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3857 rwId:75 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3858 rwId:76 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3892 rwId:77 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3893 rwId:78 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+3944 rwId:79 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4056 rwId:80 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4062 rwId:81 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4082 rwId:82 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4083 rwId:83 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4159 rwId:84 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4160 rwId:85 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4332 rwId:86 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4333 rwId:87 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4373 rwId:88 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4374 rwId:89 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4492 rwId:90 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4498 rwId:91 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4518 rwId:92 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4519 rwId:93 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4577 rwId:94 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4578 rwId:95 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4640 rwId:96 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4641 rwId:97 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4693 rwId:98 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4694 rwId:99 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4793 rwId:100 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4914 rwId:101 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4920 rwId:102 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+4940 rwId:103 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+4941 rwId:104 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5681 rwId:105 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+5693 rwId:106 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5694 rwId:107 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5727 rwId:108 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5728 rwId:109 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5766 rwId:110 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5767 rwId:111 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5801 rwId:112 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5802 rwId:113 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5886 rwId:114 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+5892 rwId:115 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+5912 rwId:116 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5913 rwId:117 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5989 rwId:118 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+5990 rwId:119 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6140 rwId:120 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6141 rwId:121 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6181 rwId:122 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6182 rwId:123 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6300 rwId:124 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+6306 rwId:125 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+6326 rwId:126 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6327 rwId:127 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6385 rwId:128 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6386 rwId:129 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6448 rwId:130 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6449 rwId:131 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6501 rwId:132 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6502 rwId:133 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+6828   ACCESS tid:1 accessId:1
+6829   ENABLE-EVENT tid:1 view:1091066160 event:0
+7284 rwId:134 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+7287 rwId:135 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:16
+7288 rwId:136 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:16
+7296 rwId:137 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+7436 rwId:138 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+7442 rwId:139 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+7462 rwId:140 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+7463 rwId:141 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8215 rwId:142 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8227 rwId:143 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8228 rwId:144 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8245 rwId:145 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8246 rwId:146 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8299 rwId:147 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8300 rwId:148 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8334 rwId:149 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8335 rwId:150 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8419 rwId:151 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8425 rwId:152 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8445 rwId:153 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8446 rwId:154 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8522 rwId:155 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8523 rwId:156 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8673 rwId:157 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8674 rwId:158 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8708 rwId:159 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8709 rwId:160 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8830 rwId:161 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8836 rwId:162 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8856 rwId:163 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8857 rwId:164 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8941 rwId:165 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+8953 rwId:166 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8954 rwId:167 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8971 rwId:168 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+8972 rwId:169 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9028 rwId:170 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9029 rwId:171 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9063 rwId:172 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9064 rwId:173 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9114 rwId:174 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+9222 rwId:175 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+9228 rwId:176 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+9248 rwId:177 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9249 rwId:178 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9342 rwId:179 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9343 rwId:180 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9821 rwId:181 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+9822 rwId:182 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10049 rwId:183 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+10083 rwId:184 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10084 rwId:185 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10118 rwId:186 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10119 rwId:187 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10239 rwId:188 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+10245 rwId:189 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+10265 rwId:190 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10266 rwId:191 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10389 rwId:192 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10390 rwId:193 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10838 rwId:194 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10839 rwId:195 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10912 rwId:196 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+10946 rwId:197 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10947 rwId:198 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10993 rwId:199 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+10994 rwId:200 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+11161   ACCESS tid:1 accessId:2
+11162   ENABLE-EVENT tid:1 view:1091073560 event:0
+11261 rwId:201 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+11262 rwId:202 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+11451 rwId:203 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+11452 rwId:204 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12014 rwId:205 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+12062   ACCESS tid:1 accessId:3
+12063   ENABLE-EVENT tid:1 view:1091058456 event:0
+12297 rwId:206 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12298 rwId:207 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12332 rwId:208 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12333 rwId:209 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12450 rwId:210 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+12532 rwId:211 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+12538 rwId:212 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+12558 rwId:213 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12559 rwId:214 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12805 rwId:215 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+12817 rwId:216 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12818 rwId:217 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12840 rwId:218 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+12841 rwId:219 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13089 rwId:220 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13090 rwId:221 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13124 rwId:222 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13125 rwId:223 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13257 rwId:224 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13370 rwId:225 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13376 rwId:226 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13396 rwId:227 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13397 rwId:228 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13485 rwId:229 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13497 rwId:230 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13498 rwId:231 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13531 rwId:232 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13532 rwId:233 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13678 rwId:234 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13679 rwId:235 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13719 rwId:236 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13720 rwId:237 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13840 rwId:238 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13846 rwId:239 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+13866 rwId:240 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+13867 rwId:241 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14131 rwId:242 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+14143 rwId:243 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14144 rwId:244 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14177 rwId:245 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14178 rwId:246 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14223 rwId:247 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14224 rwId:248 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14553 rwId:249 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14554 rwId:250 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14588 rwId:251 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14589 rwId:252 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+14780 rwId:253 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15171 rwId:254 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:120
+15172 rwId:255 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:68
+15611 rwId:256 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15707 rwId:257 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15816 rwId:258 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15822 rwId:259 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15842 rwId:260 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+15843 rwId:261 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+15974 rwId:262 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+15986 rwId:263 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+15987 rwId:264 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16051 rwId:265 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16052 rwId:266 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16086 rwId:267 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16087 rwId:268 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16121 rwId:269 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16122 rwId:270 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16203 rwId:271 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+16209 rwId:272 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+16229 rwId:273 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16230 rwId:274 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16319 rwId:275 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16320 rwId:276 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16696 rwId:277 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16697 rwId:278 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16922 rwId:279 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+16956 rwId:280 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16957 rwId:281 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16991 rwId:282 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+16992 rwId:283 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+17255 rwId:284 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:48
+17260 rwId:285 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:120
+17266 rwId:286 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:28
+17317 rwId:287 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:48
+17477 rwId:288 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+17582 rwId:289 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+17606 rwId:290 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:48
+17669 rwId:291 WRITE tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:28
+17772 rwId:292 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:212
+17780 rwId:293 READ tid:1 obj:0x4107d350 class:Landroid/os/Handler; field:20
+17787   ACCESS tid:1 accessId:4
+17788   POST src:1 msg:4 dest:-1 delay:0
+17795   INSTANCE-INTENT tid:1 instance:1091031280 intentId:1
+17796   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:RESUME-ACT
+17797   ENABLE-EVENT tid:1 view:0 event:3
+17798   ENABLE-EVENT tid:1 view:0 event:4
+17799   ENABLE-EVENT tid:1 view:0 event:5
+17800   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091034424
+17801   POST src:1 msg:5 dest:-1 delay:0
+17802   ADD_IDLE_HANDLER idler:1091108928 queue:1090931784
+17803   RET tid:1 msg:3 endAtomic
+17804   CALL tid:1 msg:4 beginAtomic
+17836 rwId:294 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1; field:2136
+17838   ACCESS tid:1 accessId:5
+17839   LOCK tid:1 lock-obj:0x41061860
+17840 rwId:295 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+17850 rwId:296 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+17851 rwId:297 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+17855   ACCESS tid:1 accessId:6
+17856   UNLOCK tid:1 lock-obj:0x41061860
+17898 rwId:298 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:12
+17903 rwId:299 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+17904 rwId:300 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:212
+17912 rwId:301 READ tid:1 obj:0x4107d350 class:Landroid/os/Handler; field:20
+17919   ACCESS tid:1 accessId:7
+17920   POST src:1 msg:6 dest:-1 delay:0
+17966 rwId:302 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:12
+17971 rwId:303 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+17972 rwId:304 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:212
+17986 rwId:305 READ tid:1 obj:0x4107d350 class:Landroid/os/Handler; field:20
+17993   ACCESS tid:1 accessId:8
+17994   POST src:1 msg:7 dest:-1 delay:0
+18001   RET tid:1 msg:4 endAtomic
+18002   CALL tid:1 msg:5 beginAtomic
+18003   POST src:1 msg:8 dest:-1 delay:0
+18004   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+18005   POST src:3 msg:9 dest:-1 delay:0
+18006   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+18007   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18008   POST src:2 msg:10 dest:-1 delay:0
+18009   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18010   POST src:1 msg:11 dest:-1 delay:0
+18011   RET tid:1 msg:5 endAtomic
+18012   CALL tid:1 msg:6 beginAtomic
+18016 rwId:306 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1; field:2136
+18018   ACCESS tid:1 accessId:9
+18019   LOCK tid:1 lock-obj:0x41061860
+18020 rwId:307 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18030 rwId:308 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18031 rwId:309 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18035   ACCESS tid:1 accessId:10
+18036   UNLOCK tid:1 lock-obj:0x41061860
+18038 rwId:310 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+18053   ENTRY tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18054 rwId:311 READ tid:1 obj:0x4108dc88 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18065   EXIT tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18066 rwId:312 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+18068 rwId:313 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18070 rwId:314 WRITE tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18071 rwId:315 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+18072   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18073 rwId:316 READ tid:1 obj:0x4108dc88 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18088   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18111 rwId:317 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+18113 rwId:318 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18115 rwId:319 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18120 rwId:320 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18121 rwId:321 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:8
+18122 rwId:322 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:8
+18123 rwId:323 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18126 rwId:324 WRITE tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18133 rwId:325 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18134 rwId:326 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:8
+18135 rwId:327 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18136 rwId:328 WRITE tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:12
+18137 rwId:329 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:16
+18138 rwId:330 READ tid:1 obj:0x41091800 class:Ljava/lang/StringBuilder; field:8
+18191 rwId:331 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+18193 rwId:332 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18195 rwId:333 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:212
+18203 rwId:334 READ tid:1 obj:0x4107d350 class:Landroid/os/Handler; field:20
+18210   ACCESS tid:1 accessId:11
+18211   POST src:1 msg:12 dest:-1 delay:0
+18218   RET tid:1 msg:6 endAtomic
+18219   CALL tid:1 msg:7 beginAtomic
+18221 rwId:335 READ tid:1 obj:0x41090730 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+18222   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18223 rwId:336 READ tid:1 obj:0x4108dc88 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18224   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x4108dc98
+18231   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x4108dc98
+18232   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18233 rwId:337 READ tid:1 obj:0x41090730 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+18235 rwId:338 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18237 rwId:339 WRITE tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18238 rwId:340 READ tid:1 obj:0x41090730 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+18239   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18240 rwId:341 READ tid:1 obj:0x4108dc88 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+18255   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4108dc88
+18258 rwId:342 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$2; field:2136
+18260   ACCESS tid:1 accessId:12
+18261   LOCK tid:1 lock-obj:0x41061860
+18262 rwId:343 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18272 rwId:344 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18273 rwId:345 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18277   ACCESS tid:1 accessId:13
+18278   UNLOCK tid:1 lock-obj:0x41061860
+18288 rwId:346 READ tid:1 obj:0x41090730 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+18290 rwId:347 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18292 rwId:348 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18309 rwId:349 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18310 rwId:350 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:8
+18311 rwId:351 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:8
+18312 rwId:352 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18313 rwId:353 WRITE tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18320 rwId:354 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18321 rwId:355 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:8
+18322 rwId:356 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18323 rwId:357 WRITE tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:12
+18324 rwId:358 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:16
+18325 rwId:359 READ tid:1 obj:0x41091cd0 class:Ljava/lang/StringBuilder; field:8
+18335   ACCESS tid:1 accessId:14
+18336   RET tid:1 msg:7 endAtomic
+18337   CALL tid:1 msg:8 beginAtomic
+18340 rwId:360 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:136
+18343 rwId:361 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:48
+18348 rwId:362 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:120
+18354 rwId:363 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:28
+18356 rwId:364 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:28
+18357 rwId:365 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:28
+18364 rwId:366 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+18365 rwId:367 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+18372 rwId:368 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:24
+18387 rwId:369 WRITE tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:136
+18388 rwId:370 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:136
+18391 rwId:371 READ tid:1 obj:0x41092a00 class:Landroid/view/MenuInflater; field:16
+18394 rwId:372 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18508 rwId:373 READ tid:1 obj:0x41092a00 class:Landroid/view/MenuInflater; field:16
+18514 rwId:374 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18528 rwId:375 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18552 rwId:376 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+18553 rwId:377 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:20
+18647 rwId:378 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18676 rwId:379 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18705 rwId:380 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18734 rwId:381 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:8
+18838   ACCESS tid:1 accessId:15
+18839   RET tid:1 msg:8 endAtomic
+18840   CALL tid:1 msg:9
+18841   RET tid:1 msg:9
+18842   CALL tid:1 msg:10
+18843   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091034424
+18844   POST src:1 msg:13 dest:-1 delay:0
+18845   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+18846   POST src:3 msg:14 dest:-1 delay:0
+18847   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+18848   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18849   POST src:2 msg:15 dest:-1 delay:0
+18850   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18851   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+18852   POST src:3 msg:16 dest:-1 delay:0
+18853   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+18854   RET tid:1 msg:10
+18855   CALL tid:1 msg:11 beginAtomic
+18856   POST src:1 msg:17 dest:-1 delay:0
+18857   RET tid:1 msg:11 endAtomic
+18858   CALL tid:1 msg:12 beginAtomic
+18862 rwId:382 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1$1; field:2136
+18864   ACCESS tid:1 accessId:16
+18865   LOCK tid:1 lock-obj:0x41061860
+18866 rwId:383 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+18876 rwId:384 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+18877 rwId:385 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+18881   ACCESS tid:1 accessId:17
+18882   UNLOCK tid:1 lock-obj:0x41061860
+18884 rwId:386 READ tid:1 obj:0x41091b60 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+18886 rwId:387 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+18889 rwId:388 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18891 rwId:389 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18900 rwId:390 READ tid:1 obj:0x41091b60 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+18902 rwId:391 READ tid:1 obj:0x410904a0 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+18905 rwId:392 READ tid:1 obj:0x4108e008 class:Lcom/example/lockedges/MainActivity$1; field:8
+18907 rwId:393 READ tid:1 obj:0x4107d0f0 class:Lcom/example/lockedges/MainActivity; field:216
+18924 rwId:394 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18925 rwId:395 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:8
+18926 rwId:396 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:8
+18927 rwId:397 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18928 rwId:398 WRITE tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18935 rwId:399 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18936 rwId:400 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:8
+18937 rwId:401 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18938 rwId:402 WRITE tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:12
+18939 rwId:403 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:16
+18940 rwId:404 READ tid:1 obj:0x41094530 class:Ljava/lang/StringBuilder; field:8
+18950   ACCESS tid:1 accessId:18
+18951   RET tid:1 msg:12 endAtomic
+18952   CALL tid:1 msg:13
+18953   RET tid:1 msg:13
+18954   CALL tid:1 msg:14
+18955   RET tid:1 msg:14
+18956   CALL tid:1 msg:15
+18957   RET tid:1 msg:15
+18958   CALL tid:1 msg:16
+18959   RET tid:1 msg:16
+18960   CALL tid:1 msg:17 beginAtomic
+18961   RET tid:1 msg:17 endAtomic
+18962   POST src:1 msg:18 dest:-1 delay:0
+18963   POST src:1 msg:19 dest:-1 delay:0
+18964   CALL tid:1 msg:19
+18965   QUEUE_IDLE tid:1 idler:1091108928 queue:1090931784
+18966   RET tid:1 msg:19
+18967   REMOVE_IDLE_HANDLER idler:1091108928 queue:1090931784
+18968   CALL tid:1 msg:18
+18969   TRIGGER-EVENT tid:1 view:0 event:4
+18970   ENABLE-EVENT tid:1 view:1091168472 event:0
+18971   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091158232
+18972   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091034424
+18973   POST src:1 msg:20 dest:-1 delay:0
+18974   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18975   POST src:2 msg:21 dest:-1 delay:0
+18976   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18977   RET tid:1 msg:18
+18978   CALL tid:1 msg:20
+18979   POST src:1 msg:22 dest:-1 delay:1198
+18980   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+18981   POST src:3 msg:23 dest:-1 delay:0
+18982   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+18983   POST src:1 msg:24 dest:-1 delay:0
+18984   POST src:1 msg:25 dest:-1 delay:0
+18985   RET tid:1 msg:20
+18986   CALL tid:1 msg:21
+18987   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091158232
+18988   ENABLE-EVENT tid:1 view:1091168472 event:0
+18989   RET tid:1 msg:21
+18990   CALL tid:1 msg:23
+18991   RET tid:1 msg:23
+18992   CALL tid:1 msg:24
+18993   RET tid:1 msg:24
+18994   CALL tid:1 msg:25
+18995   POST src:1 msg:26 dest:-1 delay:0
+18996   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+18997   POST src:2 msg:27 dest:-1 delay:0
+18998   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+18999   RET tid:1 msg:25
+19000   CALL tid:1 msg:26
+19001   RET tid:1 msg:26
+19002   CALL tid:1 msg:27
+19003   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091034424
+19004   RET tid:1 msg:27
+19005   POST src:1 msg:28 dest:-1 delay:0
+19006   CALL tid:1 msg:28
+19007   TRIGGER-EVENT tid:1 view:1091168472 event:0
+19008   POST src:1 msg:29 dest:-1 delay:0
+19009   POST src:1 msg:30 dest:-1 delay:180
+19010   POST src:1 msg:31 dest:-1 delay:0
+19011   POST src:1 msg:32 dest:-1 delay:15
+19012   POST src:1 msg:33 dest:-1 delay:125
+19013   RET tid:1 msg:28
+19014   CALL tid:1 msg:22
+19015   RET tid:1 msg:22
+19016   CALL tid:1 msg:29
+19017   RET tid:1 msg:29
+19018   CALL tid:1 msg:31
+19019   POST src:1 msg:34 dest:-1 delay:0
+19020   RET tid:1 msg:31
+19021   CALL tid:1 msg:32
+19022   POST src:1 msg:35 dest:-1 delay:15
+19023   RET tid:1 msg:32
+19024   CALL tid:1 msg:34
+19025   POST src:1 msg:36 dest:-1 delay:0
+19026   RET tid:1 msg:34
+19027   CALL tid:1 msg:35
+19028   POST src:1 msg:37 dest:-1 delay:14
+19029   RET tid:1 msg:35
+19030   CALL tid:1 msg:36
+19031   POST src:1 msg:38 dest:-1 delay:0
+19032   RET tid:1 msg:36
+19033   CALL tid:1 msg:37
+19034   POST src:1 msg:39 dest:-1 delay:15
+19035   RET tid:1 msg:37
+19036   CALL tid:1 msg:38
+19037   POST src:1 msg:40 dest:-1 delay:0
+19038   RET tid:1 msg:38
+19039   CALL tid:1 msg:33
+19040   POST src:1 msg:41 dest:-1 delay:15
+19043 rwId:405 READ tid:1 obj:0x41092d70 class:Lcom/android/internal/view/menu/MenuItemImpl; field:60
+19046   ACCESS tid:1 accessId:19
+19047   POST src:1 msg:42 dest:-1 delay:0
+19048   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091034424
+19049   RET tid:1 msg:33
+19050   CALL tid:1 msg:40
+19051   RET tid:1 msg:40
+19052   CALL tid:1 msg:41
+19053   POST src:1 msg:43 dest:-1 delay:16
+19054   RET tid:1 msg:41
+19055   CALL tid:1 msg:42
+19056   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+19057   POST src:3 msg:44 dest:-1 delay:0
+19058   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+19059   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+19060   POST src:2 msg:45 dest:-1 delay:0
+19061   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+19062   RET tid:1 msg:42
+19063   CALL tid:1 msg:43
+19064   RET tid:1 msg:43
+19065   CALL tid:1 msg:44
+19066   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091034424
+19067   POST src:1 msg:46 dest:-1 delay:0
+19068   RET tid:1 msg:44
+19069   CALL tid:1 msg:45
+19070   RET tid:1 msg:45
+19071   CALL tid:1 msg:46
+19072   RET tid:1 msg:46
+19073   POST src:1 msg:47 dest:-1 delay:0
+19074   CALL tid:1 msg:47
+19075   TRIGGER-EVENT tid:1 view:0 event:5
+19076   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:RELAUNCH-ACT
+19077   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+19078   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-ACT-CONFIG
+19079   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+19080   POST src:3 msg:48 dest:-1 delay:0
+19081   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+19082   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+19083   POST src:2 msg:49 dest:-1 delay:0
+19084   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+19085   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+19086   POST src:3 msg:50 dest:-1 delay:0
+19087   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+19088   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+19089   POST src:2 msg:51 dest:-1 delay:0
+19090   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+19091   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+19092   POST src:3 msg:52 dest:-1 delay:0
+19093   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+19094   RET tid:1 msg:47
+19095   CALL tid:1 msg:48
+19096   RET tid:1 msg:48
+19097   CALL tid:1 msg:49
+19098   RET tid:1 msg:49
+19099   CALL tid:1 msg:50
+19100   TRIGGER-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+19101   RET tid:1 msg:50
+19102   CALL tid:1 msg:51 beginAtomic
+19103   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:RELAUNCH-ACT
+19104   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:PAUSE-ACT
+19105   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:STOP-ACT
+19106   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091031280 state:DESTROY-ACT
+19107   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+19108   POST src:2 msg:53 dest:-1 delay:0
+19109   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+19110   POST src:1 msg:54 dest:-1 delay:0
+19111   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+19194 rwId:406 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:112
+19203 rwId:407 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:88
+19204 rwId:408 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:112
+19207 rwId:409 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:88
+19215 rwId:410 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:40
+19223 rwId:411 WRITE tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:208
+19227 rwId:412 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:48
+19267 rwId:413 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19273 rwId:414 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19343 rwId:415 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19396 rwId:416 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19397 rwId:417 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19415 rwId:418 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:120
+19416 rwId:419 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:68
+19440 rwId:420 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19454 rwId:421 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:120
+19455 rwId:422 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:68
+19469 rwId:423 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19476 rwId:424 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19497 rwId:425 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19532 rwId:426 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19668 rwId:427 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19674 rwId:428 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19694 rwId:429 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19695 rwId:430 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19793 rwId:431 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19805 rwId:432 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19806 rwId:433 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19823 rwId:434 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19824 rwId:435 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19933 rwId:436 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19939 rwId:437 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+19959 rwId:438 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+19960 rwId:439 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20206 rwId:440 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20218 rwId:441 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20219 rwId:442 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20252 rwId:443 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20253 rwId:444 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20302 rwId:445 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20303 rwId:446 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20452 rwId:447 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20453 rwId:448 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20487 rwId:449 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20488 rwId:450 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20571 rwId:451 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20577 rwId:452 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20597 rwId:453 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20598 rwId:454 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20845 rwId:455 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20857 rwId:456 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20858 rwId:457 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20918 rwId:458 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20919 rwId:459 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+20929 rwId:460 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20936 rwId:461 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+20951 rwId:462 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:56
+21036 rwId:463 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:56
+21231 rwId:464 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+21234 rwId:465 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:16
+21235 rwId:466 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:16
+21245 rwId:467 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+21394 rwId:468 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+21400 rwId:469 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+21420 rwId:470 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+21421 rwId:471 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22169 rwId:472 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+22181 rwId:473 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22182 rwId:474 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22215 rwId:475 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22216 rwId:476 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22254 rwId:477 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22255 rwId:478 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22289 rwId:479 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22290 rwId:480 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22374 rwId:481 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+22380 rwId:482 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+22400 rwId:483 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22401 rwId:484 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22477 rwId:485 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22478 rwId:486 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22628 rwId:487 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22629 rwId:488 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22669 rwId:489 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22670 rwId:490 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22788 rwId:491 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+22794 rwId:492 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+22814 rwId:493 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22815 rwId:494 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22873 rwId:495 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22874 rwId:496 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22936 rwId:497 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22937 rwId:498 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22989 rwId:499 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+22990 rwId:500 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+23089 rwId:501 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+23210 rwId:502 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+23216 rwId:503 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+23236 rwId:504 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+23237 rwId:505 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+23977 rwId:506 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+23989 rwId:507 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+23990 rwId:508 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24023 rwId:509 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24024 rwId:510 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24062 rwId:511 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24063 rwId:512 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24097 rwId:513 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24098 rwId:514 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24182 rwId:515 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+24188 rwId:516 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+24208 rwId:517 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24209 rwId:518 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24285 rwId:519 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24286 rwId:520 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24436 rwId:521 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24437 rwId:522 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24477 rwId:523 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24478 rwId:524 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24596 rwId:525 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+24602 rwId:526 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+24622 rwId:527 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24623 rwId:528 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24681 rwId:529 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24682 rwId:530 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24744 rwId:531 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24745 rwId:532 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24797 rwId:533 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+24798 rwId:534 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+25124   ACCESS tid:1 accessId:20
+25125   ENABLE-EVENT tid:1 view:1091346768 event:0
+25576 rwId:535 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+25579 rwId:536 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:16
+25580 rwId:537 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:16
+25588 rwId:538 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+25724 rwId:539 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+25730 rwId:540 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+25750 rwId:541 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+25751 rwId:542 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26503 rwId:543 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+26515 rwId:544 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26516 rwId:545 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26533 rwId:546 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26534 rwId:547 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26587 rwId:548 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26588 rwId:549 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26622 rwId:550 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26623 rwId:551 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26707 rwId:552 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+26713 rwId:553 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+26733 rwId:554 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26734 rwId:555 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26810 rwId:556 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26811 rwId:557 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26961 rwId:558 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26962 rwId:559 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26996 rwId:560 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+26997 rwId:561 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27118 rwId:562 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+27124 rwId:563 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+27144 rwId:564 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27145 rwId:565 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27229 rwId:566 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+27241 rwId:567 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27242 rwId:568 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27259 rwId:569 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27260 rwId:570 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27316 rwId:571 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27317 rwId:572 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27351 rwId:573 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27352 rwId:574 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27435 rwId:575 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+27441 rwId:576 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+27461 rwId:577 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27462 rwId:578 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27555 rwId:579 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+27556 rwId:580 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28016 rwId:581 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28017 rwId:582 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28244 rwId:583 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+28278 rwId:584 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28279 rwId:585 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28313 rwId:586 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28314 rwId:587 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28434 rwId:588 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+28440 rwId:589 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+28460 rwId:590 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28461 rwId:591 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28584 rwId:592 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+28585 rwId:593 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29033 rwId:594 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29034 rwId:595 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29107 rwId:596 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+29141 rwId:597 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29142 rwId:598 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29188 rwId:599 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29189 rwId:600 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29356   ACCESS tid:1 accessId:21
+29357   ENABLE-EVENT tid:1 view:1091353600 event:0
+29456 rwId:601 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29457 rwId:602 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29646 rwId:603 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+29647 rwId:604 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30209 rwId:605 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+30253   ACCESS tid:1 accessId:22
+30254   ENABLE-EVENT tid:1 view:1091339512 event:0
+30488 rwId:606 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30489 rwId:607 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30523 rwId:608 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30524 rwId:609 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30676 rwId:610 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+30682 rwId:611 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+30702 rwId:612 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30703 rwId:613 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30927 rwId:614 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+30939 rwId:615 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30940 rwId:616 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30962 rwId:617 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+30963 rwId:618 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31189 rwId:619 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31190 rwId:620 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31224 rwId:621 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31225 rwId:622 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31391 rwId:623 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+31397 rwId:624 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+31417 rwId:625 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31418 rwId:626 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31506 rwId:627 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+31518 rwId:628 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31519 rwId:629 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31552 rwId:630 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31553 rwId:631 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31677 rwId:632 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31678 rwId:633 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31718 rwId:634 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31719 rwId:635 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31839 rwId:636 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+31845 rwId:637 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+31865 rwId:638 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+31866 rwId:639 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32130 rwId:640 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+32142 rwId:641 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32143 rwId:642 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32176 rwId:643 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32177 rwId:644 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32222 rwId:645 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32223 rwId:646 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32424 rwId:647 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32425 rwId:648 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32459 rwId:649 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32460 rwId:650 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+32651 rwId:651 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33008 rwId:652 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:120
+33009 rwId:653 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:68
+33372 rwId:654 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33502 rwId:655 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33508 rwId:656 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33528 rwId:657 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33529 rwId:658 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33660 rwId:659 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33672 rwId:660 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33673 rwId:661 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33737 rwId:662 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33738 rwId:663 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33772 rwId:664 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33773 rwId:665 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33807 rwId:666 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33808 rwId:667 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33889 rwId:668 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33895 rwId:669 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+33915 rwId:670 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+33916 rwId:671 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34005 rwId:672 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34006 rwId:673 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34382 rwId:674 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34383 rwId:675 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34608 rwId:676 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+34642 rwId:677 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34643 rwId:678 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34677 rwId:679 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34678 rwId:680 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+34941 rwId:681 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:48
+34946 rwId:682 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:120
+34952 rwId:683 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:28
+35003 rwId:684 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:48
+35163 rwId:685 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+35268 rwId:686 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+35292 rwId:687 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:48
+35355 rwId:688 WRITE tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:28
+35376 rwId:689 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:212
+35384 rwId:690 READ tid:1 obj:0x410c4fc8 class:Landroid/os/Handler; field:20
+35391   ACCESS tid:1 accessId:23
+35392   POST src:1 msg:55 dest:-1 delay:0
+35401 rwId:691 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:136
+35404 rwId:692 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:48
+35409 rwId:693 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:120
+35415 rwId:694 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:28
+35417 rwId:695 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:28
+35418 rwId:696 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:28
+35425 rwId:697 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+35426 rwId:698 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+35433 rwId:699 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:24
+35448 rwId:700 WRITE tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:136
+35449 rwId:701 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:136
+35452 rwId:702 READ tid:1 obj:0x41076318 class:Landroid/view/MenuInflater; field:16
+35455 rwId:703 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+35569 rwId:704 READ tid:1 obj:0x41076318 class:Landroid/view/MenuInflater; field:16
+35575 rwId:705 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+35589 rwId:706 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:8
+35613 rwId:707 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+35614 rwId:708 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:20
+35783   ACCESS tid:1 accessId:24
+35784   INSTANCE-INTENT tid:1 instance:1091325448 intentId:1
+35785   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:RESUME-ACT
+35786   ENABLE-EVENT tid:1 view:0 event:3
+35787   ENABLE-EVENT tid:1 view:0 event:4
+35788   ENABLE-EVENT tid:1 view:0 event:5
+35789   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091328112
+35790   POST src:1 msg:56 dest:-1 delay:0
+35791   ADD_IDLE_HANDLER idler:1091231480 queue:1090931784
+35792   RET tid:1 msg:51 endAtomic
+35793   CALL tid:1 msg:52
+35794   RET tid:1 msg:52
+35795   CALL tid:1 msg:53
+35796   RET tid:1 msg:53
+35797   CALL tid:1 msg:54 beginAtomic
+35798   RET tid:1 msg:54 endAtomic
+35799   CALL tid:1 msg:55 beginAtomic
+35803 rwId:709 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1; field:2136
+35805   ACCESS tid:1 accessId:25
+35806   LOCK tid:1 lock-obj:0x41061860
+35807 rwId:710 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35817 rwId:711 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35818 rwId:712 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35822   ACCESS tid:1 accessId:26
+35823   UNLOCK tid:1 lock-obj:0x41061860
+35825 rwId:713 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:12
+35830 rwId:714 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+35831 rwId:715 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:212
+35839 rwId:716 READ tid:1 obj:0x410c4fc8 class:Landroid/os/Handler; field:20
+35846   ACCESS tid:1 accessId:27
+35847   POST src:1 msg:57 dest:-1 delay:0
+35853 rwId:717 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:12
+35858 rwId:718 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+35859 rwId:719 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:212
+35867 rwId:720 READ tid:1 obj:0x410c4fc8 class:Landroid/os/Handler; field:20
+35874   ACCESS tid:1 accessId:28
+35875   POST src:1 msg:58 dest:-1 delay:0
+35882   RET tid:1 msg:55 endAtomic
+35883   CALL tid:1 msg:56 beginAtomic
+35884   POST src:1 msg:59 dest:-1 delay:0
+35885   POST src:1 msg:60 dest:-1 delay:0
+35886   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+35887   POST src:3 msg:61 dest:-1 delay:0
+35888   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+35889   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+35890   POST src:2 msg:62 dest:-1 delay:0
+35891   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+35892   POST src:1 msg:63 dest:-1 delay:0
+35893   RET tid:1 msg:56 endAtomic
+35894   CALL tid:1 msg:57 beginAtomic
+35898 rwId:721 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1; field:2136
+35900   ACCESS tid:1 accessId:29
+35901   LOCK tid:1 lock-obj:0x41061860
+35902 rwId:722 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+35912 rwId:723 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+35913 rwId:724 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+35917   ACCESS tid:1 accessId:30
+35918   UNLOCK tid:1 lock-obj:0x41061860
+35920 rwId:725 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+35921   ENTRY tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+35922 rwId:726 READ tid:1 obj:0x4109a8b0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+35933   EXIT tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+35934 rwId:727 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+35936 rwId:728 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+35938 rwId:729 WRITE tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+35939 rwId:730 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+35940   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+35941 rwId:731 READ tid:1 obj:0x4109a8b0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+35956   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+35965 rwId:732 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+35967 rwId:733 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+35969 rwId:734 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+35974 rwId:735 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35975 rwId:736 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:8
+35976 rwId:737 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:8
+35977 rwId:738 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35980 rwId:739 WRITE tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35987 rwId:740 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35988 rwId:741 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:8
+35989 rwId:742 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35990 rwId:743 WRITE tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:12
+35991 rwId:744 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:16
+35992 rwId:745 READ tid:1 obj:0x41091d28 class:Ljava/lang/StringBuilder; field:8
+36005 rwId:746 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+36007 rwId:747 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+36009 rwId:748 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:212
+36017 rwId:749 READ tid:1 obj:0x410c4fc8 class:Landroid/os/Handler; field:20
+36024   ACCESS tid:1 accessId:31
+36025   POST src:1 msg:64 dest:-1 delay:0
+36032   RET tid:1 msg:57 endAtomic
+36033   CALL tid:1 msg:58 beginAtomic
+36035 rwId:750 READ tid:1 obj:0x41068338 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+36036   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+36037 rwId:751 READ tid:1 obj:0x4109a8b0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+36038   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x410b1d10
+36045   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x410b1d10
+36046   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+36047 rwId:752 READ tid:1 obj:0x41068338 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+36049 rwId:753 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+36051 rwId:754 WRITE tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+36052 rwId:755 READ tid:1 obj:0x41068338 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+36053   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+36054 rwId:756 READ tid:1 obj:0x4109a8b0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+36069   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x4109a8b0
+36072 rwId:757 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$2; field:2136
+36074   ACCESS tid:1 accessId:32
+36075   LOCK tid:1 lock-obj:0x41061860
+36076 rwId:758 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+36086 rwId:759 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+36087 rwId:760 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+36091   ACCESS tid:1 accessId:33
+36092   UNLOCK tid:1 lock-obj:0x41061860
+36102 rwId:761 READ tid:1 obj:0x41068338 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+36104 rwId:762 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+36106 rwId:763 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+36123 rwId:764 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36124 rwId:765 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:8
+36125 rwId:766 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:8
+36126 rwId:767 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36127 rwId:768 WRITE tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36134 rwId:769 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36135 rwId:770 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:8
+36136 rwId:771 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36137 rwId:772 WRITE tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:12
+36138 rwId:773 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:16
+36139 rwId:774 READ tid:1 obj:0x41091d40 class:Ljava/lang/StringBuilder; field:8
+36149   ACCESS tid:1 accessId:34
+36150   RET tid:1 msg:58 endAtomic
+36151   CALL tid:1 msg:59
+36152   RET tid:1 msg:59
+36153   CALL tid:1 msg:60 beginAtomic
+36154   RET tid:1 msg:60 endAtomic
+36155   CALL tid:1 msg:61
+36156   RET tid:1 msg:61
+36157   CALL tid:1 msg:62
+36158   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091328112
+36159   POST src:1 msg:65 dest:-1 delay:0
+36160   RET tid:1 msg:62
+36161   CALL tid:1 msg:63 beginAtomic
+36162   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+36163   POST src:3 msg:66 dest:-1 delay:0
+36164   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+36165   RET tid:1 msg:63 endAtomic
+36166   CALL tid:1 msg:64 beginAtomic
+36170 rwId:775 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1$1; field:2136
+36172   ACCESS tid:1 accessId:35
+36173   LOCK tid:1 lock-obj:0x41061860
+36174 rwId:776 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+36184 rwId:777 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+36185 rwId:778 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+36189   ACCESS tid:1 accessId:36
+36190   UNLOCK tid:1 lock-obj:0x41061860
+36192 rwId:779 READ tid:1 obj:0x4109c0c8 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+36194 rwId:780 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+36197 rwId:781 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+36199 rwId:782 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+36208 rwId:783 READ tid:1 obj:0x4109c0c8 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+36210 rwId:784 READ tid:1 obj:0x41061c08 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+36213 rwId:785 READ tid:1 obj:0x410b1d30 class:Lcom/example/lockedges/MainActivity$1; field:8
+36215 rwId:786 READ tid:1 obj:0x410c4e08 class:Lcom/example/lockedges/MainActivity; field:216
+36232 rwId:787 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36233 rwId:788 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:8
+36234 rwId:789 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:8
+36235 rwId:790 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36236 rwId:791 WRITE tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36243 rwId:792 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36244 rwId:793 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:8
+36245 rwId:794 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36246 rwId:795 WRITE tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:12
+36247 rwId:796 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:16
+36248 rwId:797 READ tid:1 obj:0x410bbbf0 class:Ljava/lang/StringBuilder; field:8
+36258   ACCESS tid:1 accessId:37
+36259   RET tid:1 msg:64 endAtomic
+36260   CALL tid:1 msg:65
+36261   RET tid:1 msg:65
+36262   CALL tid:1 msg:66
+36263   RET tid:1 msg:66
+36264   POST src:1 msg:67 dest:-1 delay:0
+36265   POST src:1 msg:68 dest:-1 delay:0
+36266   CALL tid:1 msg:68
+36267   QUEUE_IDLE tid:1 idler:1091231480 queue:1090931784
+36268   RET tid:1 msg:68
+36269   REMOVE_IDLE_HANDLER idler:1091231480 queue:1090931784
+36270   CALL tid:1 msg:67
+36271   TRIGGER-EVENT tid:1 view:0 event:5
+36272   ENABLE-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:RELAUNCH-ACT
+36273   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+36274   ENABLE-LIFECYCLE tid:1 component: id:0 state:CHANGE-ACT-CONFIG
+36275   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+36276   POST src:2 msg:69 dest:-1 delay:0
+36277   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+36278   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+36279   POST src:3 msg:70 dest:-1 delay:0
+36280   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+36281   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+36282   POST src:2 msg:71 dest:-1 delay:0
+36283   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+36284   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+36285   POST src:3 msg:72 dest:-1 delay:0
+36286   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+36287   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+36288   POST src:2 msg:73 dest:-1 delay:0
+36289   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+36290   RET tid:1 msg:67
+36291   CALL tid:1 msg:69
+36292   RET tid:1 msg:69
+36293   CALL tid:1 msg:70
+36294   RET tid:1 msg:70
+36295   CALL tid:1 msg:71
+36296   TRIGGER-LIFECYCLE tid:1 component: id:0 state:CHANGE-CONFIG
+36297   RET tid:1 msg:71
+36298   CALL tid:1 msg:72 beginAtomic
+36299   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:RELAUNCH-ACT
+36300   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:PAUSE-ACT
+36301   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:STOP-ACT
+36302   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091325448 state:DESTROY-ACT
+36303   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+36304   POST src:3 msg:74 dest:-1 delay:0
+36305   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+36306   POST src:1 msg:75 dest:-1 delay:0
+36307   TRIGGER-LIFECYCLE tid:1 component: id:1 state:LAUNCH-ACT
+36390 rwId:798 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:112
+36399 rwId:799 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:88
+36400 rwId:800 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:112
+36403 rwId:801 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:88
+36411 rwId:802 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:40
+36419 rwId:803 WRITE tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:208
+36423 rwId:804 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:48
+36463 rwId:805 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36469 rwId:806 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36539 rwId:807 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36592 rwId:808 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+36593 rwId:809 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+36611 rwId:810 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:120
+36612 rwId:811 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:68
+36636 rwId:812 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36650 rwId:813 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:120
+36651 rwId:814 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:68
+36665 rwId:815 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36672 rwId:816 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36693 rwId:817 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36728 rwId:818 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36864 rwId:819 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36870 rwId:820 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+36890 rwId:821 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+36891 rwId:822 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+36989 rwId:823 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37001 rwId:824 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37002 rwId:825 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37019 rwId:826 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37020 rwId:827 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37129 rwId:828 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37135 rwId:829 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37155 rwId:830 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37156 rwId:831 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37402 rwId:832 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37414 rwId:833 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37415 rwId:834 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37448 rwId:835 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37449 rwId:836 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37498 rwId:837 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37499 rwId:838 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37648 rwId:839 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37649 rwId:840 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37683 rwId:841 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37684 rwId:842 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37767 rwId:843 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37773 rwId:844 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+37793 rwId:845 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+37794 rwId:846 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38041 rwId:847 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38053 rwId:848 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38054 rwId:849 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38114 rwId:850 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38115 rwId:851 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38125 rwId:852 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38132 rwId:853 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38147 rwId:854 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:56
+38232 rwId:855 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:56
+38427 rwId:856 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38430 rwId:857 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:16
+38431 rwId:858 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:16
+38441 rwId:859 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38590 rwId:860 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38596 rwId:861 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+38616 rwId:862 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+38617 rwId:863 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39365 rwId:864 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+39377 rwId:865 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39378 rwId:866 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39411 rwId:867 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39412 rwId:868 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39450 rwId:869 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39451 rwId:870 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39485 rwId:871 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39486 rwId:872 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39570 rwId:873 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+39576 rwId:874 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+39596 rwId:875 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39597 rwId:876 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39673 rwId:877 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39674 rwId:878 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39824 rwId:879 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39825 rwId:880 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39865 rwId:881 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39866 rwId:882 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+39984 rwId:883 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+39990 rwId:884 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+40010 rwId:885 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40011 rwId:886 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40069 rwId:887 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40070 rwId:888 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40132 rwId:889 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40133 rwId:890 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40185 rwId:891 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40186 rwId:892 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40285 rwId:893 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+40406 rwId:894 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+40412 rwId:895 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+40432 rwId:896 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+40433 rwId:897 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41173 rwId:898 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+41185 rwId:899 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41186 rwId:900 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41219 rwId:901 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41220 rwId:902 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41258 rwId:903 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41259 rwId:904 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41293 rwId:905 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41294 rwId:906 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41378 rwId:907 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+41384 rwId:908 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+41404 rwId:909 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41405 rwId:910 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41481 rwId:911 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41482 rwId:912 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41632 rwId:913 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41633 rwId:914 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41673 rwId:915 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41674 rwId:916 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41792 rwId:917 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+41798 rwId:918 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+41818 rwId:919 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41819 rwId:920 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41877 rwId:921 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41878 rwId:922 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41940 rwId:923 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41941 rwId:924 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41993 rwId:925 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+41994 rwId:926 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+42320   ACCESS tid:1 accessId:38
+42321   ENABLE-EVENT tid:1 view:1091233176 event:0
+42772 rwId:927 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+42775 rwId:928 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:16
+42776 rwId:929 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:16
+42784 rwId:930 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+42920 rwId:931 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+42926 rwId:932 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+42946 rwId:933 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+42947 rwId:934 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43699 rwId:935 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+43711 rwId:936 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43712 rwId:937 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43729 rwId:938 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43730 rwId:939 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43783 rwId:940 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43784 rwId:941 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43818 rwId:942 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43819 rwId:943 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43903 rwId:944 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+43909 rwId:945 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+43929 rwId:946 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+43930 rwId:947 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44006 rwId:948 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44007 rwId:949 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44157 rwId:950 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44158 rwId:951 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44192 rwId:952 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44193 rwId:953 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44314 rwId:954 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+44320 rwId:955 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+44340 rwId:956 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44341 rwId:957 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44425 rwId:958 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+44437 rwId:959 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44438 rwId:960 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44455 rwId:961 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44456 rwId:962 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44512 rwId:963 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44513 rwId:964 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44547 rwId:965 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44548 rwId:966 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44631 rwId:967 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+44637 rwId:968 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+44657 rwId:969 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44658 rwId:970 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44751 rwId:971 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+44752 rwId:972 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45212 rwId:973 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45213 rwId:974 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45440 rwId:975 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+45474 rwId:976 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45475 rwId:977 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45509 rwId:978 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45510 rwId:979 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45630 rwId:980 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+45636 rwId:981 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+45656 rwId:982 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45657 rwId:983 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45780 rwId:984 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+45781 rwId:985 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46229 rwId:986 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46230 rwId:987 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46303 rwId:988 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+46337 rwId:989 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46338 rwId:990 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46384 rwId:991 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46385 rwId:992 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46552   ACCESS tid:1 accessId:39
+46553   ENABLE-EVENT tid:1 view:1091123560 event:0
+46652 rwId:993 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46653 rwId:994 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46842 rwId:995 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+46843 rwId:996 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47405 rwId:997 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+47449   ACCESS tid:1 accessId:40
+47450   ENABLE-EVENT tid:1 view:1091109240 event:0
+47684 rwId:998 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47685 rwId:999 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47719 rwId:1000 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47720 rwId:1001 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47872 rwId:1002 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+47878 rwId:1003 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+47898 rwId:1004 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+47899 rwId:1005 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48123 rwId:1006 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+48135 rwId:1007 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48136 rwId:1008 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48158 rwId:1009 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48159 rwId:1010 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48385 rwId:1011 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48386 rwId:1012 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48420 rwId:1013 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48421 rwId:1014 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48587 rwId:1015 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+48593 rwId:1016 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+48613 rwId:1017 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48614 rwId:1018 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48702 rwId:1019 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+48714 rwId:1020 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48715 rwId:1021 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48748 rwId:1022 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48749 rwId:1023 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48873 rwId:1024 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48874 rwId:1025 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48914 rwId:1026 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+48915 rwId:1027 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49035 rwId:1028 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+49041 rwId:1029 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+49061 rwId:1030 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49062 rwId:1031 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49326 rwId:1032 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+49338 rwId:1033 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49339 rwId:1034 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49372 rwId:1035 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49373 rwId:1036 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49418 rwId:1037 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49419 rwId:1038 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49620 rwId:1039 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49621 rwId:1040 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49655 rwId:1041 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49656 rwId:1042 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+49847 rwId:1043 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+50204 rwId:1044 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:120
+50205 rwId:1045 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:68
+50568 rwId:1046 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+50698 rwId:1047 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+50704 rwId:1048 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+50724 rwId:1049 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50725 rwId:1050 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50856 rwId:1051 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+50868 rwId:1052 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50869 rwId:1053 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50933 rwId:1054 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50934 rwId:1055 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50968 rwId:1056 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+50969 rwId:1057 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51003 rwId:1058 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51004 rwId:1059 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51085 rwId:1060 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+51091 rwId:1061 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+51111 rwId:1062 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51112 rwId:1063 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51201 rwId:1064 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51202 rwId:1065 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51578 rwId:1066 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51579 rwId:1067 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51804 rwId:1068 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+51838 rwId:1069 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51839 rwId:1070 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51873 rwId:1071 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+51874 rwId:1072 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+52137 rwId:1073 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:48
+52142 rwId:1074 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:120
+52148 rwId:1075 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:28
+52199 rwId:1076 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:48
+52359 rwId:1077 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+52464 rwId:1078 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+52488 rwId:1079 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:48
+52551 rwId:1080 WRITE tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:28
+52572 rwId:1081 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:212
+52580 rwId:1082 READ tid:1 obj:0x41098538 class:Landroid/os/Handler; field:20
+52587   ACCESS tid:1 accessId:41
+52588   POST src:1 msg:76 dest:-1 delay:0
+52597 rwId:1083 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:136
+52600 rwId:1084 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:48
+52605 rwId:1085 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:120
+52611 rwId:1086 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:28
+52613 rwId:1087 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:28
+52614 rwId:1088 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:28
+52621 rwId:1089 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+52622 rwId:1090 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+52629 rwId:1091 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:24
+52644 rwId:1092 WRITE tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:136
+52645 rwId:1093 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:136
+52648 rwId:1094 READ tid:1 obj:0x410c2950 class:Landroid/view/MenuInflater; field:16
+52651 rwId:1095 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+52765 rwId:1096 READ tid:1 obj:0x410c2950 class:Landroid/view/MenuInflater; field:16
+52771 rwId:1097 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+52785 rwId:1098 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:8
+52809 rwId:1099 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+52810 rwId:1100 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:20
+52979   ACCESS tid:1 accessId:42
+52980   INSTANCE-INTENT tid:1 instance:1091125552 intentId:1
+52981   TRIGGER-LIFECYCLE tid:1 component:MainActivity id:1091125552 state:RESUME-ACT
+52982   ENABLE-EVENT tid:1 view:0 event:3
+52983   ENABLE-EVENT tid:1 view:0 event:4
+52984   ENABLE-EVENT tid:1 view:0 event:5
+52985   ENABLE-WINDOW-FOCUS tid:1 windowHash:1091227216
+52986   POST src:1 msg:77 dest:-1 delay:0
+52987   ADD_IDLE_HANDLER idler:1091080872 queue:1090931784
+52988   RET tid:1 msg:72 endAtomic
+52989   CALL tid:1 msg:73
+52990   RET tid:1 msg:73
+52991   CALL tid:1 msg:74
+52992   RET tid:1 msg:74
+52993   CALL tid:1 msg:75 beginAtomic
+52994   RET tid:1 msg:75 endAtomic
+52995   CALL tid:1 msg:76 beginAtomic
+52999 rwId:1101 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1; field:2136
+53001   ACCESS tid:1 accessId:43
+53002   LOCK tid:1 lock-obj:0x41061860
+53003 rwId:1102 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+53013 rwId:1103 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+53014 rwId:1104 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+53018   ACCESS tid:1 accessId:44
+53019   UNLOCK tid:1 lock-obj:0x41061860
+53021 rwId:1105 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:12
+53026 rwId:1106 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53027 rwId:1107 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:212
+53035 rwId:1108 READ tid:1 obj:0x41098538 class:Landroid/os/Handler; field:20
+53042   ACCESS tid:1 accessId:45
+53043   POST src:1 msg:78 dest:-1 delay:0
+53049 rwId:1109 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:12
+53054 rwId:1110 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53055 rwId:1111 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:212
+53063 rwId:1112 READ tid:1 obj:0x41098538 class:Landroid/os/Handler; field:20
+53070   ACCESS tid:1 accessId:46
+53071   POST src:1 msg:79 dest:-1 delay:0
+53078   RET tid:1 msg:76 endAtomic
+53079   CALL tid:1 msg:77 beginAtomic
+53080   POST src:1 msg:80 dest:-1 delay:0
+53081   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+53082   POST src:2 msg:81 dest:-1 delay:0
+53083   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+53084   NATIVE-ENTRY tid:3 thread-name:Binder Thread #2
+53085   POST src:3 msg:82 dest:-1 delay:0
+53086   NATIVE-EXIT tid:3 thread-name:Binder Thread #2
+53087   POST src:1 msg:83 dest:-1 delay:0
+53088   RET tid:1 msg:77 endAtomic
+53089   CALL tid:1 msg:78 beginAtomic
+53093 rwId:1113 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1; field:2136
+53095   ACCESS tid:1 accessId:47
+53096   LOCK tid:1 lock-obj:0x41061860
+53097 rwId:1114 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+53107 rwId:1115 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+53108 rwId:1116 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+53112   ACCESS tid:1 accessId:48
+53113   UNLOCK tid:1 lock-obj:0x41061860
+53115 rwId:1117 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+53116   ENTRY tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53117 rwId:1118 READ tid:1 obj:0x41099da0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+53128   EXIT tid:1 meth:tryLock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53129 rwId:1119 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+53131 rwId:1120 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53133 rwId:1121 WRITE tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53134 rwId:1122 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:12
+53135   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53136 rwId:1123 READ tid:1 obj:0x41099da0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+53151   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53160 rwId:1124 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+53162 rwId:1125 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53164 rwId:1126 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53169 rwId:1127 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53170 rwId:1128 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:8
+53171 rwId:1129 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:8
+53172 rwId:1130 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53175 rwId:1131 WRITE tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53182 rwId:1132 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53183 rwId:1133 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:8
+53184 rwId:1134 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53185 rwId:1135 WRITE tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:12
+53186 rwId:1136 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:16
+53187 rwId:1137 READ tid:1 obj:0x410b6db8 class:Ljava/lang/StringBuilder; field:8
+53200 rwId:1138 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+53202 rwId:1139 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53204 rwId:1140 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:212
+53212 rwId:1141 READ tid:1 obj:0x41098538 class:Landroid/os/Handler; field:20
+53219   ACCESS tid:1 accessId:49
+53220   POST src:1 msg:84 dest:-1 delay:0
+53227   RET tid:1 msg:78 endAtomic
+53228   CALL tid:1 msg:79 beginAtomic
+53230 rwId:1142 READ tid:1 obj:0x410892d0 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+53231   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53232 rwId:1143 READ tid:1 obj:0x41099da0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+53233   ENTRY tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41099db0
+53240   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock$NonfairSync; obj:0x41099db0
+53241   EXIT tid:1 meth:lock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53242 rwId:1144 READ tid:1 obj:0x410892d0 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+53244 rwId:1145 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53246 rwId:1146 WRITE tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53247 rwId:1147 READ tid:1 obj:0x410892d0 class:Lcom/example/lockedges/MainActivity$1$2; field:12
+53248   ENTRY tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53249 rwId:1148 READ tid:1 obj:0x41099da0 class:Ljava/util/concurrent/locks/ReentrantLock; field:8
+53264   EXIT tid:1 meth:unlock class:Ljava/util/concurrent/locks/ReentrantLock; obj:0x41099da0
+53267 rwId:1149 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$2; field:2136
+53269   ACCESS tid:1 accessId:50
+53270   LOCK tid:1 lock-obj:0x41061860
+53271 rwId:1150 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+53281 rwId:1151 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+53282 rwId:1152 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+53286   ACCESS tid:1 accessId:51
+53287   UNLOCK tid:1 lock-obj:0x41061860
+53297 rwId:1153 READ tid:1 obj:0x410892d0 class:Lcom/example/lockedges/MainActivity$1$2; field:8
+53299 rwId:1154 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53301 rwId:1155 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53318 rwId:1156 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53319 rwId:1157 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:8
+53320 rwId:1158 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:8
+53321 rwId:1159 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53322 rwId:1160 WRITE tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53329 rwId:1161 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53330 rwId:1162 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:8
+53331 rwId:1163 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53332 rwId:1164 WRITE tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:12
+53333 rwId:1165 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:16
+53334 rwId:1166 READ tid:1 obj:0x410b6e40 class:Ljava/lang/StringBuilder; field:8
+53344   ACCESS tid:1 accessId:52
+53345   RET tid:1 msg:79 endAtomic
+53346   CALL tid:1 msg:80 beginAtomic
+53347   RET tid:1 msg:80 endAtomic
+53348   CALL tid:1 msg:81
+53349   RET tid:1 msg:81
+53350   CALL tid:1 msg:82
+53351   TRIGGER-WINDOW-FOCUS tid:1 windowHash:1091227216
+53352   POST src:1 msg:85 dest:-1 delay:0
+53353   NATIVE-ENTRY tid:2 thread-name:Binder Thread #1
+53354   POST src:2 msg:86 dest:-1 delay:0
+53355   NATIVE-EXIT tid:2 thread-name:Binder Thread #1
+53356   RET tid:1 msg:82
+53357   CALL tid:1 msg:83 beginAtomic
+53358   RET tid:1 msg:83 endAtomic
+53359   CALL tid:1 msg:84 beginAtomic
+53363 rwId:1167 READ-STATIC tid:1 class:Lcom/example/lockedges/MainActivity$1$1$1; field:2136
+53365   ACCESS tid:1 accessId:53
+53366   LOCK tid:1 lock-obj:0x41061860
+53367 rwId:1168 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:24
+53377 rwId:1169 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:48
+53378 rwId:1170 READ tid:1 obj:0x41061860 class:Lcom/android/internal/os/AndroidPrintStream; field:44
+53382   ACCESS tid:1 accessId:54
+53383   UNLOCK tid:1 lock-obj:0x41061860
+53385 rwId:1171 READ tid:1 obj:0x41089a70 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+53387 rwId:1172 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+53390 rwId:1173 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53392 rwId:1174 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53401 rwId:1175 READ tid:1 obj:0x41089a70 class:Lcom/example/lockedges/MainActivity$1$1$1; field:8
+53403 rwId:1176 READ tid:1 obj:0x410892b8 class:Lcom/example/lockedges/MainActivity$1$1; field:8
+53406 rwId:1177 READ tid:1 obj:0x41099dd0 class:Lcom/example/lockedges/MainActivity$1; field:8
+53408 rwId:1178 READ tid:1 obj:0x41094130 class:Lcom/example/lockedges/MainActivity; field:216
+53425 rwId:1179 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53426 rwId:1180 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:8
+53427 rwId:1181 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:8
+53428 rwId:1182 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53429 rwId:1183 WRITE tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53436 rwId:1184 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53437 rwId:1185 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:8
+53438 rwId:1186 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53439 rwId:1187 WRITE tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:12
+53440 rwId:1188 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:16
+53441 rwId:1189 READ tid:1 obj:0x41080b18 class:Ljava/lang/StringBuilder; field:8
+53451   ACCESS tid:1 accessId:55
+53452   RET tid:1 msg:84 endAtomic
+53453   CALL tid:1 msg:85
+53454   RET tid:1 msg:85
+53455   CALL tid:1 msg:86
+53456   RET tid:1 msg:86
